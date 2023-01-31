@@ -20,9 +20,9 @@ const fs = require('fs');
 // TODO Optimize api calls to avoid rate limits. E.g. don't delete messages which we would identically schedule again
 // TODO Add files: 1. Upload file, 2. Make file sharable 3. generte image text based on: https://stackoverflow.com/questions/58186399/how-to-create-a-slack-message-containing-an-uploaded-image/58189401#58189401
 
-// function Sleep(milliseconds) {
-//   return new Promise(resolve => setTimeout(resolve, milliseconds));
-//  }
+function Sleep(milliseconds) {
+  return new Promise(resolve => setTimeout(resolve, milliseconds));
+ }
 
 async function main() {
   //TODO make proper async
@@ -76,40 +76,41 @@ async function main() {
     }
 
 
-    const allMessages = buildRepeatMessages(messages);
+    // const allMessages = buildRepeatMessages(messages);
 
-    setup.deleteAllScheduledMessages(userTokens);
+    // setup.deleteAllScheduledMessages(userTokens);
 
-    const results = [];
+    // const results = [];
 
-    for (let message of allMessages) {
-      const user = message.user || "default";
-      const channels = userChannels[user];
-      const token = userTokens[user];
-      const messageBuilded = buildMessage(
-        convertChannelNameToId(message.channel, channels),
-        message.text,
-        message.post_at
-      );
-      const result = slack.sendMessage(token, messageBuilded);
-      result.catch((error) => {
-        console.error(`${error} for mesage: \n ${message.text}`);
-      });
-      results.push(result);
-      await Sleep(1000)
+    // for (let message of allMessages) {
+    //   const user = message.user || "default";
+    //   const channels = userChannels[user];
+    //   const token = userTokens[user];
+    //   const messageBuilded = buildMessage(
+    //     convertChannelNameToId(message.channel, channels),
+    //     message.text,
+    //     message.post_at
+    //   );
+    //   const result = slack.sendMessage(token, messageBuilded);
+    //   result.catch((error) => {
+    //     console.error(`${error} for mesage: \n ${message.text}`);
+    //   });
+    //   results.push(result);
+    //   await Sleep(1000)
 
       //TODO put in proper error handling
-    }
+    // }
     // TODO Output scheduled messages
 
-    for (let result of results) {
-      try {
-        let r = await result;
-        console.log(r);
-      } catch (error) {
-        // console.error(error);
-      }
-    }
+    // for (let result of results) {
+    //   try {
+    //     let r = await result;
+    //     console.log(r);
+    //   } catch (error) {
+    //     // console.error(error);
+    //   }
+    // }
+    await Sleep(1000)
   } catch (error) {
     core.setFailed(error);
   }
