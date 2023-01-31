@@ -1,17 +1,17 @@
 const core = require("@actions/core");
 const github = require("@actions/github");
-const {
-  buildMessage,
-  areMessagesCorrect,
-  convertChannelNameToId,
-  buildRepeatMessages,
-} = require("./src/message-builder");
-const {
-  parseUserTokens,
-  checkUserTokens,
-  parseMessageFileInput,
-  loadMessage,
-} = require("./src/input");
+// const {
+//   buildMessage,
+//   areMessagesCorrect,
+//   convertChannelNameToId,
+//   buildRepeatMessages,
+// } = require("./src/message-builder");
+// const {
+//   parseUserTokens,
+//   checkUserTokens,
+//   parseMessageFileInput,
+//   loadMessage,
+// } = require("./src/input");
 const slack = require("./src/slack");
 
 const fs = require('fs');
