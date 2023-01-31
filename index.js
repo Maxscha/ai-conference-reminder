@@ -51,6 +51,7 @@ async function main() {
     
     // Get current time
 // first version only sort the conferences by deadline descending
+    const now = new Date();
     conferences.sort(function(a, b) {
         return b.deadline - a.deadline;
     });
@@ -71,7 +72,7 @@ async function main() {
 
 
     slack.postMessage(userToken, {"channel": "C04MCHG1P5Y", "text": text});
-    const now = new Date();
+    
     for (let conference of conferences) {
         // 
     }
