@@ -1,0 +1,15 @@
+on: [push]
+
+jobs:
+  slack_message_scheduling_job:
+    runs-on: ubuntu-latest
+    name: Slack Message Scheduling Step
+    steps:
+      # To use this repository's private action,
+      # you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Slack Message Scheduling Step
+        uses: ./ # Uses an action in the root directory
+        with:
+          slack-user-oauth-access-token: '${{ secrets.SLACK_USER_OAUTH_ACCESS_TOKEN}}'
