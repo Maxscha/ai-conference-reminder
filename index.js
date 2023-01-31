@@ -41,11 +41,11 @@ async function main() {
 
     const isDryRun = core.getInput("dry-run");
 
-    const workspaceIdConverted = workspaceId === "" ? null : workspaceId;
+    
     // checkUserTokens(userTokens, workspaceIdConverted);
 
     // console.log(`${Object.keys(userTokens)} found as user`);
-    const userChannels = await slack.getChannelsFromUser(userTokens);
+    // const userChannels = await slack.getChannelsFromUser(userTokens);
 
     //TODO Change from implizit fail to explizit fail by collecting all failures and printing them before existing
     
