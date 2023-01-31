@@ -1,6 +1,6 @@
 const https = require("https");
 
-async function sendMessage(token, message) {
+async function postMessage(token, message) {
     const response = await request("POST", token, "/api/chat.postMessage", message);
     const result = JSON.parse(response.result);
 
@@ -102,5 +102,5 @@ function request(method, token, path, message) {
     });
 };
 
-module.exports = { sendMessage, getScheduledMessages, deleteScheduledMessage, getChannelsFromUser }
+module.exports = { postMessage, getScheduledMessages, deleteScheduledMessage, getChannelsFromUser }
 //   module.exports = sendMessage;
