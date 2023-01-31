@@ -28,7 +28,8 @@ async function main() {
   //TODO make proper async
   try {
 
-    const messageFilePath = core.getInput("message-file")
+    // const messageFilePath = core.getInput("message-file")
+    const messageFilePath = 'conferences.json'
     
     let rawdata = fs.readFileSync(messageFilePath);
     let conferences = JSON.parse(rawdata);
