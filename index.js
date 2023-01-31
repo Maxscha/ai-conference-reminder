@@ -62,12 +62,19 @@ async function main() {
     });
 
 
-    text = "Next conferences with deadlines:\n";
+    text = "Hey, here your weekly reminder for the next upcoming AI-conferenes:\n";
+
     for (let conference of conferences) {
-        text += conference.name + " " + conference.deadline + "\n";
+        // Format deadline into a string in the format "DD.MM.YYYY" and 
+        // Get number of days from formated deadline to now
+        // const deadline = conference.deadline.toLocaleDateString("de-DE");
+        const days = Math.ceil((conference.deadline - now) / (1000 * 60 * 60 * 24));
+
+
+        text += conference.name + " " + conference.deadline + "in " +days +  "\n";
     }
 
-    text += "Add stuff here"
+    text += "Feel free to add your own conferences to the list: https://github.com/Maxscha/ai-conference-reminder \n"
 
 
 

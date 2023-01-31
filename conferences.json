@@ -1,13 +1,17 @@
 [
     {
-        "name": "test",
-        "shortcut": "t",
-        "location": "test",
-        "deadline": "2023-02-05T00:00:00.000Z",
+        "name": "NeurIPS 2023",
+        "shortcut": "NeurIPS",
+        "location": "New Orleans, LA, USA",
+        "deadline": "2023-05-17",
         "abstractDeadline": "2019-01-01T00:00:00.000Z",
         "fullPaperDeadline": "2019-01-01T00:00:00.000Z",
         "reviewDeadline": "2019-01-01T00:00:00.000Z",
         "notificationDeadline": "2019-01-01T00:00:00.000Z",
         "cameraReadyDeadline": "2019-01-01T00:00:00.000Z"
     }
+
+    // {
+        // "name": ""
+    // }
 ]
