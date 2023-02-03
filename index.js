@@ -1,24 +1,8 @@
 const core = require("@actions/core");
 const github = require("@actions/github");
-// const {
-//   buildMessage,
-//   areMessagesCorrect,
-//   convertChannelNameToId,
-//   buildRepeatMessages,
-// } = require("./src/message-builder");
-// const {
-//   parseUserTokens,
-//   checkUserTokens,
-//   parseMessageFileInput,
-//   loadMessage,
-// } = require("./src/input");
 const slack = require("./src/slack");
 
 const fs = require('fs');
-
-
-// TODO Optimize api calls to avoid rate limits. E.g. don't delete messages which we would identically schedule again
-// TODO Add files: 1. Upload file, 2. Make file sharable 3. generte image text based on: https://stackoverflow.com/questions/58186399/how-to-create-a-slack-message-containing-an-uploaded-image/58189401#58189401
 
 function Sleep(milliseconds) {
   return new Promise(resolve => setTimeout(resolve, milliseconds));
@@ -28,29 +12,16 @@ async function main() {
   //TODO make proper async
   try {
 
-    // const messageFilePath = core.getInput("message-file")
     const messageFilePath = 'conferences.json'
     
     let rawdata = fs.readFileSync(messageFilePath);
     let conferences = JSON.parse(rawdata);
-    // Parse dates in conferences
+    
     for (let conference of conferences) {
         conference.deadline = new Date(conference.deadline);
     }
     const userToken = core.getInput("slack-user-oauth-access-token")
 
-    const isDryRun = core.getInput("dry-run");
-
-    
-    // checkUserTokens(userTokens, workspaceIdConverted);
-
-    // console.log(`${Object.keys(userTokens)} found as user`);
-    // const userChannels = await slack.getChannelsFromUser(userTokens);
-
-    //TODO Change from implizit fail to explizit fail by collecting all failures and printing them before existing
-    
-    // Get current time
-// first version only sort the conferences by deadline descending
     const now = new Date();
     conferences.sort(function(a, b) {
         return b.deadline - a.deadline;
@@ -65,8 +36,6 @@ async function main() {
     text = "Hey, here your weekly reminder for the next upcoming AI-conferenes:\n";
 
     for (let conference of conferences) {
-        // Format deadline into a string in the format "DD.MM.YYYY" and 
-        // Get number of days from formated deadline to now
         // const deadline = conference.deadline.toLocaleDateString("de-DE");
         const days = Math.ceil((conference.deadline - now) / (1000 * 60 * 60 * 24));
 

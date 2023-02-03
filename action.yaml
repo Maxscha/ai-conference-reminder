@@ -4,12 +4,6 @@ inputs:
   slack-user-oauth-access-token:
     description: "User OAuth access token"
     required: true
-  message-file:
-    description: "File with messages to be send, seperate multiple files with ;"
-    required: true
-  slack-workspace-id:
-    description: "If provided it checks the given user tokens if they are from the workspace id"
-    required: false
 runs:
   using: "node16"  
   main: "index.js"
