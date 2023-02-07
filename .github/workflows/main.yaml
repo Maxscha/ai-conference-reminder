@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '30 * * * *'
 
 jobs:
   slack_message_scheduling_job:
