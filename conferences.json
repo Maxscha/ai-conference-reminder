@@ -4,10 +4,20 @@
         "shortcut": "NeurIPS",
         "location": "New Orleans, LA, USA",
         "deadline": "2023-05-17",
-        "abstractDeadline": "2019-01-01T00:00:00.000Z",
-        "fullPaperDeadline": "2019-01-01T00:00:00.000Z",
-        "reviewDeadline": "2019-01-01T00:00:00.000Z",
-        "notificationDeadline": "2019-01-01T00:00:00.000Z",
-        "cameraReadyDeadline": "2019-01-01T00:00:00.000Z"
+        "url": "https://nips.cc/"
+    },
+    {
+        "name": "ECAI 2023",
+        "shortcut": "ECAI",
+        "location": "Krakow, Poland",
+        "deadline": "2023-05-02",
+        "url": "https://ecai2023.eu/"
+    },
+    {
+        "name": "ICDM 2023",
+        "shortcut": "ICDM",
+        "location": "Shanghai, China",
+        "deadline": "2023-07-01",
+        "url": "http://www.cloud-conf.net/icdm2023/index.html"
     }
 ]

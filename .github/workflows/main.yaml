@@ -1,6 +1,10 @@
 on:
   schedule:
-    - cron: '35 14 * * 2'
+    - cron: '5 20 * * 3'
+  push:
+    branches:
+      - main
+  
 
 jobs:
   slack_message_scheduling_job:

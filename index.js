@@ -40,7 +40,8 @@ async function main() {
 
         //format date nicely
         const deadline = conference.deadline.toLocaleDateString("en-en", {year: 'numeric', month: 'long', day: 'numeric'});
-        text += "**" + conference.name + "**" + " " + deadline + "in " + days +  " days\n\n";
+        
+        text += `<${conference.url}|*${conference.name}* ${deadline} in ${days} days\n\n`
     }
 
     text += "Feel free to add your own conferences to the list: https://github.com/Maxscha/ai-conference-reminder \n"
