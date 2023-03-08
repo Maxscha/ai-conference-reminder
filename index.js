@@ -25,13 +25,15 @@ async function main() {
         return b.deadline - a.deadline;
     });
 
+    conferences = conferences.reverse();
+
     // Filter out messages which are in the past
     conferences = conferences.filter(function(conference) {
         return conference.deadline > now;
     });
 
 
-    text = "He Everyoney, \nhere is your weekly reminder for upcoming AI-conferences:\n\n";
+    text = "Hey everyone, \nhere is your weekly reminder for upcoming AI-conferences:\n\n";
 
     for (let conference of conferences) {
         // const deadline = conference.deadline.toLocaleDateString("de-DE");
@@ -44,7 +46,7 @@ async function main() {
         text += `<${conference.url}|*${conference.name}*> ${deadline} in ${days} days\n\n`
     }
 
-    text += "Feel free to add your own conferences to the list: https://github.com/Maxscha/ai-conference-reminder \n"
+    // text += "Feel free to add your own conferences to the list: https://github.com/Maxscha/ai-conference-reminder \n"
 
 
 
