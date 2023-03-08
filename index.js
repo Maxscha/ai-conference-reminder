@@ -50,7 +50,7 @@ async function main() {
 
 
 
-    await slack.postMessage(userToken, {"channel": "C04MCHG1P5Y", "text": text});
+    await slack.postMessage(userToken, {"channel": "C01EZJGU0LQ", "text": text});
     
   } catch (error) {
     core.setFailed(error);
