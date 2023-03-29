@@ -11,36 +11,6 @@ async function postMessage(token, message) {
     return response;
 }
 
-async function getScheduledMessages(token) {
-    const response = await request("POST", token, "/api/chat.scheduledMessages.list", {});
-    if (response.statusCode == 200) {
-        const parsedBody = JSON.parse(response.result);
-        if (parsedBody.ok) {
-            return parsedBody.scheduled_messages
-        }
-
-    } else {
-        return null;
-    }
-}
-
-async function deleteScheduledMessage(token, channel, scheduledMessageId) {
-    const response = await request("POST", token, "/api/chat.deleteScheduledMessage", {
-        scheduled_message_id: scheduledMessageId,
-        channel: channel
-    });
-    if (response.statusCode == 200) {
-        const parsedBody = JSON.parse(response.result);
-        if (parsedBody.ok) {
-            return parsedBody.scheduled_messages
-        }
-
-    } else {
-        return null;
-    }
-}
-
-
 async function getChannelsFromUser(token) {
     let channelList = [];
     let nextToken = "";
@@ -52,7 +22,6 @@ async function getChannelsFromUser(token) {
             channelList.push(...parsedBody.channels);
             nextToken = parsedBody.response_metadata.next_cursor;
         }
-
     } while (nextToken.length > 1)
 
     return channelList;
@@ -70,7 +39,6 @@ const getOptions = (method, token, path) => {
         },
     };
 };
-
 
 function request(method, token, path, message) {
     return new Promise((resolve, reject) => {
@@ -102,5 +70,4 @@ function request(method, token, path, message) {
     });
 };
 
-module.exports = { postMessage, getScheduledMessages, deleteScheduledMessage, getChannelsFromUser }
-//   module.exports = sendMessage;
+module.exports = { postMessage, getChannelsFromUser }
