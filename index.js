@@ -28,10 +28,10 @@ async function main() {
     for (const conference of conferences) {
       const days = Math.ceil((conference.deadline - now) / (1000 * 60 * 60 * 24));
       const deadline = conference.deadline.toLocaleDateString('en-en', { year: 'numeric', month: 'long', day: 'numeric' });
-      text += `<${conference.url}|*${conference.name}*> ${deadline} in ${days} days\n\n`;
+      text += `<${conference.url}|*${conference.name}*> ${deadline} in *${days}* days in ${conference.location}\n\n`;
     }
 
-    // text += "Feel free to add your own conferences to the list: https://github.com/Maxscha/ai-conference-reminder \n"
+    text += "Feel free to add your own conferences to the repository: https://github.com/Maxscha/ai-conference-reminder"
 
     await slack.postMessage(userToken, { channel: channelId, text });
   } catch (error) {

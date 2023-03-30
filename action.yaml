@@ -1,8 +1,11 @@
-name: "Slack Message Scheduler"
-description: "Schedules messages from the files specified in message-file"
+name: "AI Conference Reminder"
+description: "Send messages into slack based on conferences.json"
 inputs:
   slack-user-oauth-access-token:
     description: "User OAuth access token"
+    required: true
+  slack-channe:
+    description: "ChannelID"
     required: true
 runs:
   using: "node16"  
