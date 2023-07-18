@@ -1,46 +1,30 @@
 [
     {
-        "name": "NeurIPS 2023",
-        "shortcut": "NeurIPS",
-        "location": "New Orleans, LA, USA",
-        "deadline": "2023-05-17",
-        "url": "https://nips.cc/"
+        "name": "AAAI 2024",
+        "shortcut": "AAAI",
+        "location": "Vancouver, Canada",
+        "deadline": "2023-08-16 13:59:59 GMT+0200",
+        "url": "https://aaai.org/aaai-conference/"
     },
     {
-        "name": "ECAI 2023",
-        "shortcut": "ECAI",
-        "location": "Krakow, Poland",
-        "deadline": "2023-05-02",
-        "url": "https://ecai2023.eu/"
+        "name": " ICLR 2024",
+        "shortcut": "ICLR",
+        "location": "Vienna, Austria",
+        "deadline": "2023-09-29 13:59:59 GMT+0200",
+        "url": "https://iclr.cc/Conferences/2024"
     },
     {
-        "name": "ICDM 2023",
-        "shortcut": "ICDM",
-        "location": "Shanghai, China",
-        "deadline": "2023-07-01",
-        "url": "http://www.cloud-conf.net/icdm2023/index.html"
+        "name": "LREC-COLING 2024",
+        "shortcut": "LREC-COLING",
+        "location": "Torino, Italy",
+        "deadline": "2023-10-14 13:59:59 GMT+0200",
+        "url": "https://lrec-coling-2024.lrec-conf.org/"
     },
     {
-        "name": "EMNLP 2023",
-        "shortcut": "EMNLP",
-        "location":"Singapore",
-        "deadline":"2023-06-23",
-        "abstractDeadline":"2023-06-16",
-        "url": "https://2023.emnlp.org/"
-    },
-    {
-        "name": "IEEE DSAA 2023",
-        "shortcut": "IEEE DSAA",
-        "location": "Thessaloniki, Greece",
-        "deadline": "2023-05-02",
-        "url": "https://conferences.sigappfr.org/dsaa2023/cfp-for-applications-track/#1662458455158-a537d1f8-679e"
-    },
-    {
-        "name": "ICIS 2023",
-        "shortcut": "ICIS",
-        "location": "Hyderabad, India",
-        "deadline": "2023-05-03",
-        "url": "https://icis2023.aisconferences.org/submissions/call-for-papers/"
-
+        "name": "CVPR 2024",
+        "shortcut": "LREC-COLING",
+        "location": "Torino, Italy",
+        "deadline": "2023-11-11 08:59:59 GMT+0100",
+        "url": "https://cvpr.thecvf.com/Conferences/2024"
     }
 ]
