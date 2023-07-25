@@ -33,8 +33,8 @@ jobs:
           git diff --quiet -- parsed_conferences.json || echo "Changes detected in parsed_conferences.json"
           echo "changes=$(git diff --quiet -- parsed_conferences.json && echo "false" || echo "true")" >> $GITHUB_OUTPUT
           echo $GITHUB_OUTPUT
-          echo $(git diff --quiet -- parsed_conferences.json)
-          echo $(git diff --quiet)
+          echo $(git diff -- parsed_conferences.json)
+          echo $(git diff)
 
         continue-on-error: true
 
