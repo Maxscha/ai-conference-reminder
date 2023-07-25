@@ -30,7 +30,7 @@ jobs:
       - name: Check for Changes in parsed_conferences.json
         id: check_changes
         run: |
-          git diff --quiet -- parsed_conferences.json || echo "Changes detected in parsed_conferences.json"
+          git diff -- parsed_conferences.json || echo "Changes detected in parsed_conferences.json"
           echo ::set-output name=changes::$(git diff --quiet -- parsed_conferences.json && echo "false" || echo "true")
         continue-on-error: true
 
