@@ -31,7 +31,8 @@ jobs:
         id: check_changes
         run: |
           git diff --quiet -- parsed_conferences.json || echo "Changes detected in parsed_conferences.json"
-          echo ::set-output name=changes::$(git diff --quiet -- parsed_conferences.json && echo "false" || echo "true")
+          echo "changes=$(git diff --quiet -- parsed_conferences.json && echo "false" || echo "true")" >> $GITHUB_OUTPUT
+          echo $GITHUB_OUTPUT
         continue-on-error: true
 
       - name: Commit and Push Result
