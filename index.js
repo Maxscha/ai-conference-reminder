@@ -1,41 +1,44 @@
 const core = require('@actions/core');
-const fs = require('fs');
+const fs = require('fs').promises;
+const { DateTime } = require('luxon');
 const slack = require('./src/slack');
 
 async function main() {
   try {
-    // TODO Make this readable also for multiple conferences
-    const messageFilePath = 'conferences.json';
-    const rawdata = fs.readFileSync(messageFilePath);
+    const messageFilePath = 'data/conferences.json';
+    const rawdata = await fs.readFile(messageFilePath, 'utf-8');
     let conferences = JSON.parse(rawdata);
 
-    for (const conference of conferences) {
-      conference.deadline = new Date(conference.deadline);
-    }
     const userToken = core.getInput('slack-user-oauth-access-token');
     const channelId = core.getInput('slack-channel');
 
-    const now = new Date();
-    conferences.sort((a, b) => b.deadline - a.deadline);
+    const now = DateTime.now('Europe/Berlin');
 
-    conferences = conferences.reverse();
+    conferences = conferences
+      .map((conference) => {
+        const dt = DateTime.fromISO(conference.deadline.replace(' ', 'T'), { zone: conference.timezone });
+        return dt.isValid ? { ...conference, deadline: dt } : null;
+      })
+      .filter((conference) => conference && conference.deadline.ts > now.ts);
 
-    // Filter out messages where the submission deadline is in the past
-    conferences = conferences.filter((conference) => conference.deadline > now);
+    conferences.sort((a, b) => a.deadline - b.deadline);
 
     let text = 'Hey everyone, \nhere is your weekly reminder for upcoming AI-conferences:\n\n';
 
     for (const conference of conferences) {
-      const days = Math.ceil((conference.deadline - now) / (1000 * 60 * 60 * 24));
-      const deadline = conference.deadline.toLocaleDateString('en-en', { year: 'numeric', month: 'long', day: 'numeric' });
-      text += `<${conference.url}|*${conference.name}*> ${deadline} in *${days}* days in ${conference.location}\n\n`;
-    }
+      const deadlineDateTime = DateTime.fromISO(conference.deadline, { zone: conference.timezone });
+      const diffInMilliseconds = deadlineDateTime.diff(now);
+      const days = Math.ceil(diffInMilliseconds.as('days'));
+      const deadline = deadlineDateTime.toLocaleString(DateTime.DATE_FULL);
 
-    text += "Feel free to add your own conferences to the repository: https://github.com/Maxscha/ai-conference-reminder"
+      text += `<${conference.link}|*${conference.title} ${conference.year}*> ${deadline} in *${days}* days in ${conference.location}.\n\n`;
+    }
+    text += 'Feel free to add your own conferences to the repository: https://github.com/Maxscha/ai-conference-reminder';
 
     await slack.postMessage(userToken, { channel: channelId, text });
   } catch (error) {
-    core.setFailed(error);
+    core.setFailed(`Error during execution: ${error}`);
+    console.error(error);
   }
 }
 
