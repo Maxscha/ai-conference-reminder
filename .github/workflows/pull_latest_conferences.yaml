@@ -41,7 +41,7 @@ jobs:
             echo "Changes detected in parsed_conferences.json"
             echo "changes=true" >> $GITHUB_OUTPUT
             echo "$changes"
-            echo $(git diff HEAD^^ parsed_conferences.json)
+            echo $(git log -p -1 parsed_conferences.json)
           fi
 
         continue-on-error: true
