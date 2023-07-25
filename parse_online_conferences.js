@@ -41,13 +41,45 @@ async function readJSONFile(filePath) {
   }
 }
 
+const conferenceDenyList = [
+  'ICRA',
+  'AAMAS',
+  'RecSys',
+  'ACML',
+  'SIGIR-AP',
+  'SIGGRAPH Asia',
+  'CoRL',
+  'RO-MAN',
+  'AutoML-Conf',
+  'CoLLAs',
+  'UAI',
+  'RSS',
+  'IROS',
+  'KR',
+  'ICAPS',
+  'AISTATS',
+  'ACML',
+  'ICMI',
+  'ISMIR',
+  'ALT',
+  'HRI',
+  'COLT',
+  'ICCC',
+  'ICPR',
+  '3DV',
+  'ICME',
+  'ICIP',
+  'MIDL',
+  'FG',
+  'CHIL',
+];
+
 (async () => {
   const url = 'https://raw.githubusercontent.com/paperswithcode/ai-deadlines/gh-pages/_data/conferences.yml';
   let conferenceData = [];
   try {
     const yamlContent = await downloadYamlFile(url);
     conferenceData = parseYaml(yamlContent);
-    // console.log(conferenceData);
   } catch (error) {
     console.error(`Error: ${error.message}`);
   }
@@ -66,40 +98,7 @@ async function readJSONFile(filePath) {
       continue;
     }
 
-    const badListByGerard = [
-      'ICRA',
-      'AAMAS',
-      'RecSys',
-      'ACML',
-      'SIGIR-AP',
-      'SIGGRAPH Asia',
-      'CoRL',
-      'RO-MAN',
-      'AutoML-Conf',
-      'CoLLAs',
-      'UAI',
-      'RSS',
-      'IROS',
-      'KR',
-      'ICAPS',
-      'AISTATS',
-      'ACML',
-      'ICMI',
-      'ISMIR',
-      'ALT',
-      'HRI',
-      'COLT',
-      'ICCC',
-      'ICPR',
-      '3DV',
-      'ICME',
-      'ICIP',
-      'MIDL',
-      'FG',
-      'CHIL',
-    ];
-
-    if (badListByGerard.includes(conference.title)) {
+    if (conferenceDenyList.includes(conference.title)) {
       continue;
     }
 

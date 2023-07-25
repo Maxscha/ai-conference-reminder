@@ -3,6 +3,9 @@ name: Pull Latest Conferences
 on:
   schedule:
     - cron: '5 10 * * 1' # Set your desired cron schedule here
+  push:
+    paths:
+      - 'parse_online_conferences.js'
 
 jobs:
   run-script:
@@ -39,3 +42,5 @@ jobs:
           git add parsed_conferences.json
           git commit -m "Update parsed_conferences.json"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
