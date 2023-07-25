@@ -1,0 +1,41 @@
+name: Pull Latest Conferences
+
+on:
+  schedule:
+    - cron: '5 10 * * 1' # Set your desired cron schedule here
+
+jobs:
+  run-script:
+    name: Execute Script and Save Result
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run JavaScript Script
+        run: node script.js
+
+      - name: Check for Changes in parsed_conferences.json
+        id: check_changes
+        run: |
+          git diff --quiet -- parsed_conferences.json || echo "Changes detected in parsed_conferences.json"
+          echo ::set-output name=changes::$(git diff --quiet -- parsed_conferences.json && echo "false" || echo "true")
+        continue-on-error: true
+
+      - name: Commit and Push Result
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add parsed_conferences.json
+          git commit -m "Update parsed_conferences.json"
+          git push
