@@ -30,11 +30,15 @@ jobs:
       - name: Check for Changes in parsed_conferences.json
         id: check_changes
         run: |
-          git diff --quiet -- parsed_conferences.json || echo "Changes detected in parsed_conferences.json"
-          echo "changes=$(git diff --quiet -- parsed_conferences.json && echo "false" || echo "true")" >> $GITHUB_OUTPUT
-          echo $GITHUB_OUTPUT
-          echo $(git diff -- parsed_conferences.json)
-          echo $(git diff)
+          changes=$(git status --porcelain parsed_conferences.json)
+          if [ -z "$changes" ]; then
+            echo "No changes detected in parsed_conferences.json"
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in parsed_conferences.json"
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "$changes"
+          fi
 
         continue-on-error: true
 
