@@ -3,7 +3,7 @@
         "name": "WACV 2024",
         "shortcut": "WACV",
         "location": "Waikoloa, Hawaii, USA",
-        "deadline": "2023-08-30T04:59:59.000-07:00",
+        "deadline": "2023-08-30T11:59:59.000-07:00",
         "url": "https://wacv2024.thecvf.com",
         "abstractDeadline": null,
         "note": "Paper Registration is on Aug. 23rd 2023",
@@ -13,7 +13,7 @@
         "name": "EACL 2024",
         "shortcut": "EACL",
         "location": "Malta",
-        "deadline": "2023-10-15T11:59:59.000-12:00",
+        "deadline": "2023-10-15T23:59:59.000-12:00",
         "abstractDeadline": null,
         "note": "Submission via ACL Rolling Review, commitment date 2023-12-20",
         "conferenceTime": "March 17-22, 2024"
