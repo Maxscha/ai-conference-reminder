@@ -16,6 +16,12 @@ async function main() {
     const rawdata = fs.readFileSync(messageFilePath);
     let conferences = JSON.parse(rawdata);
 
+    const autoParsedConferencesPath = 'parsed_conferences.json';
+    const autoParsedConferencesData = fs.readFileSync(autoParsedConferencesPath);
+    let autoParsedConferences = JSON.parse(autoParsedConferencesData);
+
+    conferences = conferences.concat(autoParsedConferences);
+
     for (const conference of conferences) {
       conference.deadline = new Date(conference.deadline);
     }
@@ -38,7 +44,9 @@ async function main() {
         month: 'long',
         day: 'numeric',
       });
-      text += `<${conference.url}|*${conference.name}*> ${deadline} in *${daysUntilNow(conference.deadline)}* days in ${conference.location}`;
+
+      let conferenceName = conference.url ? `<${conference.url}|*${conference.name}*>` : `*${conference.name}*`;
+      text += `${conferenceName} ${deadline} in *${daysUntilNow(conference.deadline)}* days in ${conference.location}`;
 
       if (conference.abstractDeadline) {
         text += ` (Abstract deadline in ${daysUntilNow(new Date(conference.abstractDeadline))} days)`;
