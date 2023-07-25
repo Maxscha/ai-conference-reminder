@@ -2,7 +2,7 @@ name: Pull Latest Conferences
 
 on:
   schedule:
-    - cron: '5 10 * * 1' # Set your desired cron schedule here
+    - cron: '0 0 * * *' # Run the job every day at 00:00 UTC
   push:
     paths:
       - 'parse_online_conferences.js'
