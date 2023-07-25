@@ -6,10 +6,10 @@ const fs = require('fs');
 function convertToISODate(inputDate, timezone) {
   // Parse the input date string into a DateTime object
   //   console.log(inputDate, timezone);
-  const dateObj = DateTime.fromFormat(inputDate, 'yyyy-MM-dd HH:mm:ss');
+  const dateObj = DateTime.fromFormat(inputDate, 'yyyy-MM-dd HH:mm:ss', {zone: timezone});
   // Convert the date object to the ISO date string in the specified timezone
   //   return dateObj.setZone(timezone).toFormat('yyyy-MM-dd HH:mm:ss ZZZZ');
-  return dateObj.setZone(timezone).toISO();
+  return dateObj.toISO();
   //   }
 }
 
