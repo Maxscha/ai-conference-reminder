@@ -4,8 +4,8 @@ on:
   schedule:
     - cron: '0 0 * * *' # Run the job every day at 00:00 UTC
   push:
-    paths:
-      - 'parse_online_conferences.js'
+    branches:
+      - 'add-online-conference-parsing'
 
 jobs:
   run-script:
@@ -14,18 +14,18 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '16'
 
       - name: Install Dependencies
         run: npm install
 
       - name: Run JavaScript Script
-        run: node script.js
+        run: node parse_online_conferences.js
 
       - name: Check for Changes in parsed_conferences.json
         id: check_changes
