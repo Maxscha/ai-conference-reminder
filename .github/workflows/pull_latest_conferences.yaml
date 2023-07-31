@@ -3,9 +3,6 @@ name: Pull Latest Conferences
 on:
   schedule:
     - cron: '0 0 * * *' # Run the job every day at 00:00 UTC
-  push:
-    branches:
-      - 'add-online-conference-parsing'
 
 jobs:
   run-script:
@@ -27,7 +24,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Run JavaScript Script
+      - name: Run Conference Parsing Script
         run: node parse_online_conferences.js
 
       - name: Check for Changes in parsed_conferences.json
