@@ -1,0 +1,54 @@
+name: Pull Latest Conferences
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run the job every day at 00:00 UTC
+  push:
+    branches:
+      - 'add-online-conference-parsing'
+
+jobs:
+  run-script:
+    name: Execute Script and Save Result
+    runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run JavaScript Script
+        run: node parse_online_conferences.js
+
+      - name: Check for Changes in parsed_conferences.json
+        id: check_changes
+        run: |
+          changes=$(git status --porcelain parsed_conferences.json)
+          if [ -z "$changes" ]; then
+            echo "No changes detected in parsed_conferences.json"
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in parsed_conferences.json"
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "$changes"
+            echo $(git log -p -1 parsed_conferences.json)
+          fi
+
+        continue-on-error: true
+
+      - name: Commit and Push Result
+        if: steps.check_changes.outputs.changes == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update parsed_conferences.json
+          file_pattern: parsed_conferences.json

@@ -2,12 +2,25 @@ const core = require('@actions/core');
 const fs = require('fs');
 const slack = require('./src/slack');
 
+function daysUntilNow(date) {
+  const now = new Date();
+  const diffTime = date - now;
+  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+  return diffDays;
+}
+
 async function main() {
   try {
     // TODO Make this readable also for multiple conferences
     const messageFilePath = 'conferences.json';
     const rawdata = fs.readFileSync(messageFilePath);
     let conferences = JSON.parse(rawdata);
+
+    const autoParsedConferencesPath = 'parsed_conferences.json';
+    const autoParsedConferencesData = fs.readFileSync(autoParsedConferencesPath);
+    let autoParsedConferences = JSON.parse(autoParsedConferencesData);
+
+    conferences = conferences.concat(autoParsedConferences);
 
     for (const conference of conferences) {
       conference.deadline = new Date(conference.deadline);
@@ -26,12 +39,27 @@ async function main() {
     let text = 'Hey everyone, \nhere is your weekly reminder for upcoming AI-conferences:\n\n';
 
     for (const conference of conferences) {
-      const days = Math.ceil((conference.deadline - now) / (1000 * 60 * 60 * 24));
-      const deadline = conference.deadline.toLocaleDateString('en-en', { year: 'numeric', month: 'long', day: 'numeric' });
-      text += `<${conference.url}|*${conference.name}*> ${deadline} in *${days}* days in ${conference.location}\n\n`;
+      const deadline = conference.deadline.toLocaleDateString('en-en', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      });
+
+      let conferenceName = conference.url ? `<${conference.url}|*${conference.name}*>` : `*${conference.name}*`;
+      text += `${conferenceName} ${deadline} in *${daysUntilNow(conference.deadline)}* days in ${conference.location}`;
+
+      if (conference.abstractDeadline) {
+        text += ` (Abstract deadline in ${daysUntilNow(new Date(conference.abstractDeadline))} days)`;
+      }
+
+      if (conference.note) {
+        text += `\n(${conference.note})`;
+      }
+
+      text += '\n\n';
     }
 
-    text += "Feel free to add your own conferences to the repository: https://github.com/Maxscha/ai-conference-reminder"
+    text += 'Feel free to add your own conferences to the repository: https://github.com/Maxscha/ai-conference-reminder';
 
     await slack.postMessage(userToken, { channel: channelId, text });
   } catch (error) {
