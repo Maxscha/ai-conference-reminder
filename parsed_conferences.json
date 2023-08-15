@@ -1,5 +1,15 @@
 [
     {
+        "name": "NAACL 2024",
+        "shortcut": "NAACL",
+        "location": "Mexico City, Mexico",
+        "deadline": "2023-12-15T23:59:59.000-12:00",
+        "url": "https://2024.naacl.org",
+        "abstractDeadline": null,
+        "note": "All submissions must be done through ARR. More info <a href='https://2024.naacl.org/calls/papers/'>here</a>.",
+        "conferenceTime": "June 16-21, 2024"
+    },
+    {
         "name": "WACV 2024",
         "shortcut": "WACV",
         "location": "Waikoloa, Hawaii, USA",
