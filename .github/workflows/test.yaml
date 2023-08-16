@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  
+
 jobs:
   slack_message_scheduling_job:
     runs-on: ubuntu-latest
@@ -19,5 +19,4 @@ jobs:
         with:
           slack-user-oauth-access-token: '${{ secrets.SLACK_USER_OAUTH_ACCESS_TOKEN}}'
           slack-channel: 'C04MCHG1P5Y'
-
-
+          git-repository: 'https://github.com/${{ github.repository }}'

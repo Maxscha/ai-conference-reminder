@@ -20,4 +20,4 @@ jobs:
         with:
           slack-user-oauth-access-token: '${{ secrets.SLACK_USER_OAUTH_ACCESS_TOKEN}}'
           slack-channel: 'C01EZJGU0LQ'
-
+          git-repository: 'https://github.com/${{ github.repository }}'
