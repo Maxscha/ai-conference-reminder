@@ -27,5 +27,34 @@
         "abstractDeadline": null,
         "note": "Submission via ACL Rolling Review, commitment date 2023-12-20",
         "conferenceTime": "March 17-22, 2024"
+    },
+    {
+        "name": "ICLR 2024",
+        "shortcut": "ICLR",
+        "location": "Vienna, Austria",
+        "deadline": "2023-09-28T23:59:59.000-12:00",
+        "url": "https://iclr.cc/Conferences/2024",
+        "abstractDeadline": "2023-09-21T23:59:59.000-12:00",
+        "note": "Mandatory abstract deadline on September 21, 2023. More info <a href='https://iclr.cc/Conferences/2024/CallForPapers'>here</a>.",
+        "conferenceTime": "May 07-11, 2024"
+    },
+    {
+        "name": "CVPR 2024",
+        "shortcut": "CVPR",
+        "location": "Seattle, Washington, USA",
+        "deadline": "2023-11-10T23:59:59.000-08:00",
+        "url": "https://cvpr.thecvf.com/Conferences/2024",
+        "abstractDeadline": "2023-11-03T23:59:59.000-07:00",
+        "conferenceTime": "June 17-21, 2024"
+    },
+    {
+        "name": "LREC-COLING 2024",
+        "shortcut": "LREC-COLING",
+        "location": "Torino, Italy",
+        "deadline": "2023-10-13T23:59:59.000-12:00",
+        "url": "https://lrec-coling-2024.lrec-conf.org/",
+        "abstractDeadline": null,
+        "note": "Workshop / Tutorial proposals are also due on October 13th, more info <a href=\"https://lrec-coling-2024.lrec-conf.org/1stCfP-LRECCOLING2024.html\">here</a>.",
+        "conferenceTime": "May 20 - May 25, 2024"
     }
 ]
