@@ -2926,6 +2926,7 @@ async function main() {
     }
     const userToken = core.getInput('slack-user-oauth-access-token');
     const channelId = core.getInput('slack-channel');
+    const gitRepository  = core.getInput('git-repository')
 
     const now = new Date();
     conferences.sort((a, b) => b.deadline - a.deadline);
@@ -2958,7 +2959,7 @@ async function main() {
       text += '\n\n';
     }
 
-    text += 'Feel free to add your own conferences to the repository: https://github.com/Maxscha/ai-conference-reminder';
+    text += `Feel free to add your own conferences to the repository: ${gitRepository}`;
 
     await slack.postMessage(userToken, { channel: channelId, text });
   } catch (error) {
