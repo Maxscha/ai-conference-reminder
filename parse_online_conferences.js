@@ -3,14 +3,8 @@ const yaml = require('js-yaml');
 const { DateTime } = require('luxon');
 const fs = require('fs');
 
-function convertToISODate(inputDate, timezone) {
-  // Parse the input date string into a DateTime object
-  //   console.log(inputDate, timezone);
-  const dateObj = DateTime.fromFormat(inputDate, 'yyyy-MM-dd HH:mm:ss', {zone: timezone});
-  // Convert the date object to the ISO date string in the specified timezone
-  //   return dateObj.setZone(timezone).toFormat('yyyy-MM-dd HH:mm:ss ZZZZ');
-  return dateObj.toISO();
-  //   }
+function parseDateWithTimezone(inputDate, timezone) {
+  return DateTime.fromFormat(inputDate, 'yyyy-MM-dd HH:mm:ss', { zone: timezone });
 }
 
 async function downloadYamlFile(url) {
@@ -91,10 +85,14 @@ const conferenceDenyList = [
       continue;
     }
 
+    if (conference.deadline == null) {
+      continue;
+    }
+
     // accept only conferences with a deadline in the future
-    const deadline = new Date(conference.deadline);
-    const now = new Date();
-    if (deadline < now) {
+    const deadline = parseDateWithTimezone(conference.deadline, conference.timezone);
+    const now = DateTime.now();
+    if (!deadline.isValid || deadline < now) {
       continue;
     }
 
@@ -103,18 +101,16 @@ const conferenceDenyList = [
     }
 
     const manuallyAddedConferences = await readJSONFile('./conferences.json');
-
     const alreadyManuallyAdded = manuallyAddedConferences.some((manualConference) => manualConference.shortcut.toLowerCase().includes(conference.title.toLowerCase()));
     if (alreadyManuallyAdded) continue;
 
-    console.log(conference);
     const conferenceObject = {
       name: `${conference.title} ${conference.year}`,
       shortcut: conference.title,
       location: conference.place,
-      deadline: convertToISODate(conference.deadline, conference.timezone),
+      deadline: deadline.toISO(),
       url: conference.link,
-      abstractDeadline: conference.abstract_deadline ? convertToISODate(conference.abstract_deadline, conference.timezone) : null,
+      abstractDeadline: conference.abstract_deadline ? parseDateWithTimezone(conference.abstract_deadline, conference.timezone).toISO() : null,
       note: conference.note,
       conferenceTime: conference.date,
     };
@@ -124,7 +120,8 @@ const conferenceDenyList = [
   }
 
   // Convert the JSON array to a string
-  const jsonString = JSON.stringify(goodConferenceData, null, 4); // The second argument (null) is a replacer function, and the third argument (2) is the number of spaces to use for indentation.
+  // The second argument (null) is a replacer function, and the third argument (4) is the number of spaces to use for indentation.
+  const jsonString = JSON.stringify(goodConferenceData, null, 4);
 
   // File path
   const filePath = './parsed_conferences.json';
