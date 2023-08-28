@@ -4,8 +4,11 @@ inputs:
   slack-user-oauth-access-token:
     description: "User OAuth access token"
     required: true
-  slack-channe:
-    description: "ChannelID"
+  slack-channel:
+    description: "Channel ID"
+    required: true
+  git-repository:
+    description: "Git repository URL"
     required: true
 runs:
   using: "node16"  
