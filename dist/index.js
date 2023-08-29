@@ -2908,6 +2908,27 @@ function daysUntilNow(date) {
   return diffDays;
 }
 
+function convertLinksToSlackFormat(text) {
+  // Regular expression to match <a> format
+  /*
+  <a: Matches the literal characters <a.
+  \s+: Matches one or more whitespace characters (spaces, tabs, line breaks).
+  href=["']: Matches the attribute href= followed by either a single or double quote character.
+  ([^"']+): Capturing group for URL, any character except quotes, one or more times.
+  ["']: Matches the closing quote character for href.
+  \s*>: Matches remaining whitespace and the closing angle bracket >.
+  (.*?): Capturing group for link text, any character, zero or more times.
+  <\/a>: Matches literal characters </a>, the closing tag.
+  /g: Global flag for all occurrences in the input.
+  /i: Case-insensitive flag.
+  */
+  const regex = /<a\s+href=["']([^"']+)["']\s*>(.*?)<\/a>/gi;
+
+  // Replace <a> format with Slack format. Sanitizes link text.
+  const slackText = text.replace(regex, (_, url, name) => `<${url}|*${name.replace(/[*_~]/g, '\\$&')}*>`);
+  return slackText;
+}
+
 async function main() {
   try {
     // TODO Make this readable also for multiple conferences
@@ -2917,7 +2938,7 @@ async function main() {
 
     const autoParsedConferencesPath = 'parsed_conferences.json';
     const autoParsedConferencesData = fs.readFileSync(autoParsedConferencesPath);
-    let autoParsedConferences = JSON.parse(autoParsedConferencesData);
+    const autoParsedConferences = JSON.parse(autoParsedConferencesData);
 
     conferences = conferences.concat(autoParsedConferences);
 
@@ -2944,7 +2965,7 @@ async function main() {
         day: 'numeric',
       });
 
-      let conferenceName = conference.url ? `<${conference.url}|*${conference.name}*>` : `*${conference.name}*`;
+      const conferenceName = conference.url ? `<${conference.url}|*${conference.name}*>` : `*${conference.name}*`;
       text += `${conferenceName} ${deadline} in *${daysUntilNow(conference.deadline)}* days in ${conference.location}`;
 
       if (conference.abstractDeadline) {
@@ -2952,14 +2973,14 @@ async function main() {
       }
 
       if (conference.note) {
-        text += `\n(${conference.note})`;
+        text += `\n(${convertLinksToSlackFormat(conference.note)})`;
       }
 
       text += '\n\n';
     }
 
     text += 'Feel free to add your own conferences to the repository: https://github.com/Maxscha/ai-conference-reminder';
-
+    console.log(text);
     await slack.postMessage(userToken, { channel: channelId, text });
   } catch (error) {
     core.setFailed(error);
