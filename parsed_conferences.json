@@ -10,16 +10,6 @@
         "conferenceTime": "June 16-21, 2024"
     },
     {
-        "name": "WACV 2024",
-        "shortcut": "WACV",
-        "location": "Waikoloa, Hawaii, USA",
-        "deadline": "2023-08-30T11:59:59.000-07:00",
-        "url": "https://wacv2024.thecvf.com",
-        "abstractDeadline": null,
-        "note": "This is the Round 2 submission. Paper Registration is on August 23rd 2023. More info <a href='https://wacv2024.thecvf.com/submissions/'>here</a>.",
-        "conferenceTime": "January 3-7, 2024"
-    },
-    {
         "name": "EACL 2024",
         "shortcut": "EACL",
         "location": "Malta",
