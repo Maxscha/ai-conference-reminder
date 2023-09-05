@@ -12,8 +12,9 @@
     {
         "name": "EACL 2024",
         "shortcut": "EACL",
-        "location": "Malta",
+        "location": "St. Julians, Malta",
         "deadline": "2023-10-15T23:59:59.000-12:00",
+        "url": "https://2024.eacl.org/",
         "abstractDeadline": null,
         "note": "Submission via ACL Rolling Review, commitment date 2023-12-20",
         "conferenceTime": "March 17-22, 2024"
