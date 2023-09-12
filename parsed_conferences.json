@@ -1,5 +1,15 @@
 [
     {
+        "name": "ICPRAI 2024",
+        "shortcut": "ICPRAI",
+        "location": "Jeju Island, South Korea",
+        "deadline": "2023-12-15T23:59:59.000+09:00",
+        "url": "http://icprai2024.org/",
+        "abstractDeadline": null,
+        "note": "Soliciting both regular papers and work-in-progress papers. More info <a href='http://icprai2024.org/'>here</a>.",
+        "conferenceTime": "Jun 18-21, 2024"
+    },
+    {
         "name": "NAACL 2024",
         "shortcut": "NAACL",
         "location": "Mexico City, Mexico",
