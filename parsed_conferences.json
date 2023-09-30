@@ -1,5 +1,15 @@
 [
     {
+        "name": "SaTML 2024",
+        "shortcut": "SaTML",
+        "location": "Toronto, Canada",
+        "deadline": "2023-10-11T23:59:59.000-12:00",
+        "url": "https://satml.org/",
+        "abstractDeadline": "2023-10-04T23:59:59.000-12:00",
+        "note": "Check the website for exact conference dates.",
+        "conferenceTime": "April 2024"
+    },
+    {
         "name": "ECCV 2024",
         "shortcut": "ECCV",
         "location": "Milano, Italy",
@@ -47,16 +57,6 @@
         "abstractDeadline": null,
         "note": "Submission via ACL Rolling Review, commitment date 2023-12-20",
         "conferenceTime": "March 17-22, 2024"
-    },
-    {
-        "name": "ICLR 2024",
-        "shortcut": "ICLR",
-        "location": "Vienna, Austria",
-        "deadline": "2023-09-28T23:59:59.000-12:00",
-        "url": "https://iclr.cc/Conferences/2024",
-        "abstractDeadline": "2023-09-23T23:59:59.000-12:00",
-        "note": "Mandatory abstract deadline on September 23, 2023. More info <a href='https://iclr.cc/Conferences/2024/CallForPapers'>here</a>.",
-        "conferenceTime": "May 07-11, 2024"
     },
     {
         "name": "CVPR 2024",
