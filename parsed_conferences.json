@@ -1,15 +1,5 @@
 [
     {
-        "name": "SaTML 2024",
-        "shortcut": "SaTML",
-        "location": "Toronto, Canada",
-        "deadline": "2023-10-11T23:59:59.000-12:00",
-        "url": "https://satml.org/",
-        "abstractDeadline": "2023-10-04T23:59:59.000-12:00",
-        "note": "Check the website for exact conference dates.",
-        "conferenceTime": "April 2024"
-    },
-    {
         "name": "ECCV 2024",
         "shortcut": "ECCV",
         "location": "Milano, Italy",
