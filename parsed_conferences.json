@@ -1,5 +1,15 @@
 [
     {
+        "name": "IJCAI-PRICAI 2024",
+        "shortcut": "IJCAI-PRICAI",
+        "location": "Jeju, South Korea",
+        "deadline": "2024-01-17T23:59:59.000-12:00",
+        "url": "https://ijcai24.org/",
+        "abstractDeadline": "2024-01-10T23:59:59.000-12:00",
+        "note": "Mandatory abstract deadline on January 10, 2024 and optional supplementary material deadline on January 24, 2024. More info <a href='https://ijcai24.org/'>here</a>.",
+        "conferenceTime": "August 03-09, 2024"
+    },
+    {
         "name": "ECCV 2024",
         "shortcut": "ECCV",
         "location": "Milano, Italy",
@@ -37,16 +47,6 @@
         "abstractDeadline": null,
         "note": "All submissions must be done through ARR. More info <a href='https://2024.naacl.org/calls/papers/'>here</a>.",
         "conferenceTime": "June 16-21, 2024"
-    },
-    {
-        "name": "EACL 2024",
-        "shortcut": "EACL",
-        "location": "St. Julians, Malta",
-        "deadline": "2023-10-15T23:59:59.000-12:00",
-        "url": "https://2024.eacl.org/",
-        "abstractDeadline": null,
-        "note": "Submission via ACL Rolling Review, commitment date 2023-12-20",
-        "conferenceTime": "March 17-22, 2024"
     },
     {
         "name": "CVPR 2024",
