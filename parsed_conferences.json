@@ -1,5 +1,15 @@
 [
     {
+        "name": "COLM 2024",
+        "shortcut": "COLM",
+        "location": "TBD",
+        "deadline": "2024-03-15T23:59:59.000-12:00",
+        "url": "https://colmweb.org/",
+        "abstractDeadline": null,
+        "note": "Mandatory abstract deadline on March 8, 2024. More info [here](https://colmweb.org/cfp.html)",
+        "conferenceTime": "October, 2024"
+    },
+    {
         "name": "IJCAI-PRICAI 2024",
         "shortcut": "IJCAI-PRICAI",
         "location": "Jeju, South Korea",
