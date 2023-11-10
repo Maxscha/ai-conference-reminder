@@ -42,10 +42,10 @@
         "name": "ECCV 2024",
         "shortcut": "ECCV",
         "location": "Milano, Italy",
-        "deadline": "2024-03-07T23:59:00.000-12:00",
+        "deadline": "2024-03-07T12:59:00.000-08:00",
         "url": "https://eccv2024.ecva.net/",
-        "abstractDeadline": null,
-        "note": "Abstract deadline on February 29, 2024. More info <a href='https://eccv2024.ecva.net/'>here</a>.",
+        "abstractDeadline": "2024-02-29T12:59:00.000-08:00",
+        "note": "More info <a href='https://eccv2024.ecva.net/'>here</a>.",
         "conferenceTime": "September 29 - October 04, 2024"
     },
     {
