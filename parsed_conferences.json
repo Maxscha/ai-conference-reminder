@@ -1,5 +1,14 @@
 [
     {
+        "name": "RLC 2024",
+        "shortcut": "RLC",
+        "location": "Amherst, Massachusetts, USA",
+        "deadline": "2024-03-01T23:59:59.000-12:00",
+        "url": "https://rl-conference.cc/",
+        "abstractDeadline": null,
+        "conferenceTime": "Aug 09-12, 2024"
+    },
+    {
         "name": "ICML 2024",
         "shortcut": "ICML",
         "location": "Vienna, Austria",
