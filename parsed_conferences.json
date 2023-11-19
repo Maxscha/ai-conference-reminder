@@ -76,15 +76,5 @@
         "abstractDeadline": null,
         "note": "All submissions must be done through ARR. More info <a href='https://2024.naacl.org/calls/papers/'>here</a>.",
         "conferenceTime": "June 16-21, 2024"
-    },
-    {
-        "name": "CVPR 2024",
-        "shortcut": "CVPR",
-        "location": "Seattle, Washington, USA",
-        "deadline": "2023-11-17T23:59:59.000-08:00",
-        "url": "https://cvpr.thecvf.com/Conferences/2024",
-        "abstractDeadline": "2023-11-03T23:59:59.000-07:00",
-        "note": "Mandatory paper registration deadline on November 03, 2023 and optional supplementary material deadline on November 26, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2024'>here</a>.",
-        "conferenceTime": "June 17-21, 2024"
     }
 ]
