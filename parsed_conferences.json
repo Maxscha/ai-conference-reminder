@@ -1,5 +1,15 @@
 [
     {
+        "name": "AAAI 2024 Spring Symposium on Clinical Foundation Models 2024",
+        "shortcut": "AAAI 2024 Spring Symposium on Clinical Foundation Models",
+        "location": "Stanford, USA",
+        "deadline": "2024-01-05T23:59:59.000-12:00",
+        "url": "https://clinicalfoundationmodels.github.io/",
+        "abstractDeadline": null,
+        "note": "More info <a href='https://clinicalfoundationmodels.github.io/'>here</a>.",
+        "conferenceTime": "March, 25-27, 2024"
+    },
+    {
         "name": "ECAI 2024",
         "shortcut": "ECAI",
         "location": "Santiago de Compostela, Spain",
@@ -41,15 +51,15 @@
         "name": "COLM 2024",
         "shortcut": "COLM",
         "location": "TBD",
-        "deadline": "2024-03-15T23:59:59.000-12:00",
+        "deadline": "2024-03-29T23:59:59.000-12:00",
         "url": "https://colmweb.org/",
-        "abstractDeadline": null,
-        "note": "Mandatory abstract deadline on March 8, 2024. More info <a href='https://colmweb.org/cfp.html'>here</a>.",
+        "abstractDeadline": "2024-03-22T23:59:59.000-12:00",
+        "note": "Mandatory abstract deadline on March 22, 2024. More info <a href='https://colmweb.org/cfp.html'>here</a>.",
         "conferenceTime": "October, 2024"
     },
     {
-        "name": "IJCAI-PRICAI 2024",
-        "shortcut": "IJCAI-PRICAI",
+        "name": "IJCAI 2024",
+        "shortcut": "IJCAI",
         "location": "Jeju, South Korea",
         "deadline": "2024-01-17T23:59:59.000-12:00",
         "url": "https://ijcai24.org/",
