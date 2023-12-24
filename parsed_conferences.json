@@ -10,15 +10,6 @@
         "conferenceTime": "March, 25-27, 2024"
     },
     {
-        "name": "AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems 2024",
-        "shortcut": "AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems",
-        "location": "Stanford, USA",
-        "deadline": "2023-12-22T23:59:59.000-12:00",
-        "url": "https://aair-lab.github.io/aia2024/",
-        "abstractDeadline": null,
-        "conferenceTime": "March 25-27, 2024"
-    },
-    {
         "name": "ECAI 2024",
         "shortcut": "ECAI",
         "location": "Santiago de Compostela, Spain",
