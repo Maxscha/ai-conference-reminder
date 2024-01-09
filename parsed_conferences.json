@@ -1,5 +1,15 @@
 [
     {
+        "name": "AAAI 2024 Spring Symposium on Clinical Foundation Models 2024",
+        "shortcut": "AAAI 2024 Spring Symposium on Clinical Foundation Models",
+        "location": "Stanford, USA",
+        "deadline": "2024-01-26T23:59:59.000-12:00",
+        "url": "https://clinicalfoundationmodels.github.io/",
+        "abstractDeadline": null,
+        "note": "More info <a href='https://clinicalfoundationmodels.github.io/'>here</a>.",
+        "conferenceTime": "March, 25-27, 2024"
+    },
+    {
         "name": "ECAI 2024",
         "shortcut": "ECAI",
         "location": "Santiago de Compostela, Spain",
@@ -16,7 +26,7 @@
         "deadline": "2024-03-01T23:59:59.000-12:00",
         "url": "https://rl-conference.cc/",
         "abstractDeadline": null,
-        "conferenceTime": "Aug 09-12, 2024"
+        "conferenceTime": "August 09-12, 2024"
     },
     {
         "name": "ICML 2024",
