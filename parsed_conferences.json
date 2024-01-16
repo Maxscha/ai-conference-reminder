@@ -1,5 +1,14 @@
 [
     {
+        "name": "MM 2024",
+        "shortcut": "MM",
+        "location": "Melbourne, Australia",
+        "deadline": "2024-04-08T23:59:59.000-12:00",
+        "url": "https://2024.acmmm.org/",
+        "abstractDeadline": "2024-04-12T23:59:59.000-12:00",
+        "note": "Mandatory abstract deadline on April 8, 2024. More info <a href='https://2024.acmmm.org/regular-papers'>here</a>."
+    },
+    {
         "name": "ACL 2024",
         "shortcut": "ACL",
         "location": "Bangkok, Thailand",
