@@ -77,16 +77,6 @@
         "conferenceTime": "October, 2024"
     },
     {
-        "name": "IJCAI 2024",
-        "shortcut": "IJCAI",
-        "location": "Jeju, South Korea",
-        "deadline": "2024-01-17T23:59:59.000-12:00",
-        "url": "https://ijcai24.org/",
-        "abstractDeadline": "2024-01-10T23:59:59.000-12:00",
-        "note": "Mandatory abstract deadline on January 10, 2024 and optional supplementary material deadline on January 24, 2024. More info <a href='https://ijcai24.org/'>here</a>.",
-        "conferenceTime": "August 03-09, 2024"
-    },
-    {
         "name": "ECCV 2024",
         "shortcut": "ECCV",
         "location": "Milano, Italy",
