@@ -75,5 +75,15 @@
         "abstractDeadline": "2024-02-29T12:59:00.000-08:00",
         "note": "More info <a href='https://eccv2024.ecva.net/'>here</a>.",
         "conferenceTime": "September 29 - October 04, 2024"
+    },
+    {
+        "name": "MIPR 2024",
+        "shortcut": "MIPR",
+        "location": "San Jose, USA",
+        "deadline": "2024-03-15T23:59:59.000-07:00",
+        "url": "https://sites.google.com/view/mipr2024",
+        "abstractDeadline": null,
+        "note": "Check the conference website for paper review available and notification of acceptance date.",
+        "conferenceTime": "August, 07-09, 2024"
     }
 ]
