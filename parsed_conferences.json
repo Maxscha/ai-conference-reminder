@@ -38,15 +38,6 @@
         "conferenceTime": "August 09-12, 2024"
     },
     {
-        "name": "ICML 2024",
-        "shortcut": "ICML",
-        "location": "Vienna, Austria",
-        "deadline": "2024-02-01T23:59:59.000-12:00",
-        "url": "https://icml.cc/Conferences/2024",
-        "abstractDeadline": null,
-        "conferenceTime": "July 21-27, 2024"
-    },
-    {
         "name": "MICCAI 2024",
         "shortcut": "MICCAI",
         "location": "Marrakech, Morocco",
