@@ -76,5 +76,15 @@
         "abstractDeadline": null,
         "note": "Check the conference website for paper review available and notification of acceptance date.",
         "conferenceTime": "August, 07-09, 2024"
+    },
+    {
+        "name": "AIware 2024",
+        "shortcut": "AIware",
+        "location": "Porto de Galinhas, Brazil",
+        "deadline": "2024-03-29T23:59:59.000-03:00",
+        "url": "https://2024.aiwareconf.org/#",
+        "abstractDeadline": null,
+        "note": "Check the conference website for details the Challenge Track, Industry Statements and Demo Track, and Late Breaking Arxiv Track.",
+        "conferenceTime": "July, 15-16, 2024"
     }
 ]
