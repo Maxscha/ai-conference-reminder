@@ -9,16 +9,6 @@
         "note": "Mandatory abstract deadline on April 8, 2024. More info <a href='https://2024.acmmm.org/regular-papers'>here</a>."
     },
     {
-        "name": "ACL 2024",
-        "shortcut": "ACL",
-        "location": "Bangkok, Thailand",
-        "deadline": "2024-02-15T23:59:00.000-12:00",
-        "url": "https://2024.aclweb.org/",
-        "abstractDeadline": null,
-        "note": "All submissions should be done through ARR. More info <a href=\"https://www.aclweb.org/portal/sites/default/files/Submission%20Dates%20and%20Process%20for%20EACL_NAACL%20and%20ACL%202024-2.pdf\">here</a>.",
-        "conferenceTime": "August 11-16, 2024"
-    },
-    {
         "name": "ECAI 2024",
         "shortcut": "ECAI",
         "location": "Santiago de Compostela, Spain",
