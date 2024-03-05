@@ -6,8 +6,8 @@
         "deadline": "2024-03-29T23:59:00.000-12:00",
         "url": "http://approximateinference.org/",
         "abstractDeadline": null,
-        "note": "The deadline for submissions to the proceedings and workshop tracks is 29 March. The deadline for submitting a recently published paper to AABI's fast track is 10 May.",
-        "conferenceTime": "July, 21, 2024"
+        "note": "Co-located with ICML 2024. Submission deadlines are March 29 (proceedings and workshop track) and May 10 (fast track). More info <a href=\"http://approximateinference.org/call/index.html\">here</a>",
+        "conferenceTime": "July 21, 2024"
     },
     {
         "name": "MM 2024",
@@ -27,6 +27,15 @@
         "abstractDeadline": "2024-04-19T23:59:59.000-12:00",
         "note": "Mandatory abstract deadline on April 19, 2024. More info <a href='https://www.ecai2024.eu/calls/main-track'>here</a>.",
         "conferenceTime": "October 19-24, 2024"
+    },
+    {
+        "name": "RLC 2024",
+        "shortcut": "RLC",
+        "location": "Amherst, Massachusetts, USA",
+        "deadline": "2024-03-08T23:59:59.000-12:00",
+        "url": "https://rl-conference.cc/",
+        "abstractDeadline": "2024-03-01T23:59:59.000-12:00",
+        "conferenceTime": "August 09-12, 2024"
     },
     {
         "name": "MICCAI 2024",
