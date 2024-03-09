@@ -38,16 +38,6 @@
         "conferenceTime": "August 09-12, 2024"
     },
     {
-        "name": "MICCAI 2024",
-        "shortcut": "MICCAI",
-        "location": "Marrakech, Morocco",
-        "deadline": "2024-03-07T23:59:59.000-08:00",
-        "url": "https://conferences.miccai.org/2024/en/",
-        "abstractDeadline": null,
-        "note": "More info <a href='https://conferences.miccai.org/2024/'>here</a>.",
-        "conferenceTime": "October 6 - October 10, 2024"
-    },
-    {
         "name": "MIPR 2024",
         "shortcut": "MIPR",
         "location": "San Jose, USA",
