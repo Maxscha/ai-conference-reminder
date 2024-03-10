@@ -29,15 +29,6 @@
         "conferenceTime": "October 19-24, 2024"
     },
     {
-        "name": "RLC 2024",
-        "shortcut": "RLC",
-        "location": "Amherst, Massachusetts, USA",
-        "deadline": "2024-03-08T23:59:59.000-12:00",
-        "url": "https://rl-conference.cc/",
-        "abstractDeadline": "2024-03-01T23:59:59.000-12:00",
-        "conferenceTime": "August 09-12, 2024"
-    },
-    {
         "name": "MIPR 2024",
         "shortcut": "MIPR",
         "location": "San Jose, USA",
