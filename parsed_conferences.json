@@ -40,16 +40,6 @@
         "conferenceTime": "October 19-24, 2024"
     },
     {
-        "name": "MIPR 2024",
-        "shortcut": "MIPR",
-        "location": "San Jose, USA",
-        "deadline": "2024-03-15T23:59:59.000-07:00",
-        "url": "https://sites.google.com/view/mipr2024",
-        "abstractDeadline": null,
-        "note": "Check the conference website for paper review available and notification of acceptance date.",
-        "conferenceTime": "August, 07-09, 2024"
-    },
-    {
         "name": "AIware 2024",
         "shortcut": "AIware",
         "location": "Porto de Galinhas, Brazil",
