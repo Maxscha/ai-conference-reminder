@@ -20,16 +20,6 @@
         "conferenceTime": "December 9 - December 15, 2024"
     },
     {
-        "name": "AABI 2024",
-        "shortcut": "AABI",
-        "location": "Vienna, Austria",
-        "deadline": "2024-03-29T23:59:00.000-12:00",
-        "url": "http://approximateinference.org/",
-        "abstractDeadline": null,
-        "note": "Co-located with ICML 2024. Submission deadlines are March 29 (proceedings and workshop track) and May 10 (fast track). More info <a href=\"http://approximateinference.org/call/index.html\">here</a>",
-        "conferenceTime": "July 21, 2024"
-    },
-    {
         "name": "MM 2024",
         "shortcut": "MM",
         "location": "Melbourne, Australia",
@@ -58,15 +48,5 @@
         "abstractDeadline": null,
         "note": "Check the conference website for paper review available and notification of acceptance date.",
         "conferenceTime": "August, 07-09, 2024"
-    },
-    {
-        "name": "AIware 2024",
-        "shortcut": "AIware",
-        "location": "Porto de Galinhas, Brazil",
-        "deadline": "2024-03-29T23:59:59.000-03:00",
-        "url": "https://2024.aiwareconf.org/#",
-        "abstractDeadline": null,
-        "note": "Check the conference website for details the Challenge Track, Industry Statements and Demo Track, and Late Breaking Arxiv Track.",
-        "conferenceTime": "July, 15-16, 2024"
     }
 ]
