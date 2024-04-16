@@ -1,5 +1,15 @@
 [
     {
+        "name": "SPAICE 2024",
+        "shortcut": "SPAICE",
+        "location": "ECSAT, Harwell, United Kingdom",
+        "deadline": "2024-05-19T23:59:59.000+02:00",
+        "url": "https://spaice.esa.int/",
+        "abstractDeadline": null,
+        "note": "Best papers will be selected for special issues on AI and space in IAA Acta Astronautica and Springer Astrodynamics. More info <a href='https://spaice.esa.int/call-for-papers/'>here</a>.",
+        "conferenceTime": "September 17-19, 2024"
+    },
+    {
         "name": "EMNLP 2024",
         "shortcut": "EMNLP",
         "location": "Miami, Florida, USA",
