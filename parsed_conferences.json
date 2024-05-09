@@ -1,5 +1,15 @@
 [
     {
+        "name": "BMVC 2024",
+        "shortcut": "BMVC",
+        "location": "Glasgow, UK",
+        "deadline": "2024-05-10T23:59:59.000Z",
+        "url": "https://bmvc2024.org/",
+        "abstractDeadline": "2024-04-26T23:59:59.000Z",
+        "note": "Mandatory abstract deadline on April 26, 2024",
+        "conferenceTime": "November 25 - November 28, 2024"
+    },
+    {
         "name": "SPAICE 2024",
         "shortcut": "SPAICE",
         "location": "ECSAT, Harwell, United Kingdom",
@@ -23,9 +33,9 @@
         "name": "NeurIPS 2024",
         "shortcut": "NeurIPS",
         "location": "Vancouver, Canada",
-        "deadline": "2024-05-22T23:59:59.000Z",
+        "deadline": "2024-05-22T19:59:59.000Z",
         "url": "https://nips.cc/Conferences/2024",
-        "abstractDeadline": "2024-05-15T23:59:59.000Z",
+        "abstractDeadline": "2024-05-15T19:59:59.000Z",
         "note": "Mandatory abstract deadline on May 15, 2024",
         "conferenceTime": "December 9 - December 15, 2024"
     }
