@@ -8,15 +8,5 @@
         "abstractDeadline": null,
         "note": "More info <a href='https://2024.emnlp.org/calls/main_conference_papers/'>here</a>.",
         "conferenceTime": "November 12-16, 2024"
-    },
-    {
-        "name": "NeurIPS 2024",
-        "shortcut": "NeurIPS",
-        "location": "Vancouver, Canada",
-        "deadline": "2024-05-22T19:59:59.000Z",
-        "url": "https://nips.cc/Conferences/2024",
-        "abstractDeadline": "2024-05-15T19:59:59.000Z",
-        "note": "Mandatory abstract deadline on May 15, 2024",
-        "conferenceTime": "December 9 - December 15, 2024"
     }
 ]
