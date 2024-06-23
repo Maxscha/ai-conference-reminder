@@ -1,1 +1,21 @@
-[]
+[
+    {
+        "name": "WACV 2025",
+        "shortcut": "WACV",
+        "location": "Tucson, Arizona",
+        "deadline": "2024-07-14T23:59:59.000-07:00",
+        "url": "https://wacv2025.thecvf.com/",
+        "abstractDeadline": null,
+        "conferenceTime": "Feb 28 – Mar 4, 2025"
+    },
+    {
+        "name": "AAAI 2025",
+        "shortcut": "AAAI",
+        "location": "Philadelphia, USA",
+        "deadline": "2024-08-15T23:59:59.000-12:00",
+        "url": "https://aaai.org/aaai-conference/save-the-date-aaai-25/",
+        "abstractDeadline": "2023-08-07T23:59:59.000-12:00",
+        "note": "Mandatory abstract deadline on Aug 07, 2024, and supplementary material deadline on Aug 19, 2024. More info <a href='https://aaai.org/aaai-conference/save-the-date-aaai-25/'>here</a>.",
+        "conferenceTime": "February 25 - March 04, 2025"
+    }
+]
