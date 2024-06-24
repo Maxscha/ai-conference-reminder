@@ -81,7 +81,7 @@ const conferenceDenyList = [
   const goodConferenceData = [];
   for (const conference of conferenceData) {
     // accept only sub ML, NLP, and CV
-    if (!['ML', 'NLP', 'CV'].includes(conference.sub)) {
+    if (!['ML', 'NLP', 'CV'].some((topic) => conference.sub.includes(topic))) {
       continue;
     }
 
