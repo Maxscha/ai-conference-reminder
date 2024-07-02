@@ -1,5 +1,15 @@
 [
     {
+        "name": "COLING 2025",
+        "shortcut": "COLING",
+        "location": "Abu Dhabi, UAE",
+        "deadline": "2024-09-16T23:59:59.000-12:00",
+        "url": "https://coling2025.org/",
+        "abstractDeadline": null,
+        "note": "More info can be found <a href=\"https://coling2025.org/calls/main_conference_papers/#important-dates\">here</a>.",
+        "conferenceTime": "January 19-24, 2025"
+    },
+    {
         "name": "WACV 2025",
         "shortcut": "WACV",
         "location": "Tucson, Arizona",
