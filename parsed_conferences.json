@@ -10,15 +10,6 @@
         "conferenceTime": "January 19-24, 2025"
     },
     {
-        "name": "WACV 2025",
-        "shortcut": "WACV",
-        "location": "Tucson, Arizona",
-        "deadline": "2024-07-14T23:59:59.000-07:00",
-        "url": "https://wacv2025.thecvf.com/",
-        "abstractDeadline": null,
-        "conferenceTime": "Feb 28 – Mar 4, 2025"
-    },
-    {
         "name": "AAAI 2025",
         "shortcut": "AAAI",
         "location": "Philadelphia, USA",
