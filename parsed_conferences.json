@@ -18,5 +18,14 @@
         "abstractDeadline": "2023-08-07T23:59:59.000-12:00",
         "note": "Mandatory abstract deadline on Aug 07, 2024, and supplementary material deadline on Aug 19, 2024. More info <a href='https://aaai.org/aaai-conference/save-the-date-aaai-25/'>here</a>.",
         "conferenceTime": "February 25 - March 04, 2025"
+    },
+    {
+        "name": "ECML PKDD 2024",
+        "shortcut": "ECML PKDD",
+        "location": "Vilnius (Lithuania)",
+        "deadline": "2024-07-22T23:59:59.000-12:00",
+        "url": "https://2024.ecmlpkdd.org/",
+        "abstractDeadline": null,
+        "conferenceTime": "September 9-13, 2024"
     }
 ]
