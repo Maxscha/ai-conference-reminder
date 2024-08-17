@@ -28,15 +28,5 @@
         "abstractDeadline": null,
         "note": "More info can be found <a href=\"https://coling2025.org/calls/main_conference_papers/#important-dates\">here</a>.",
         "conferenceTime": "January 19-24, 2025"
-    },
-    {
-        "name": "AAAI 2025",
-        "shortcut": "AAAI",
-        "location": "Philadelphia, USA",
-        "deadline": "2024-08-15T23:59:59.000-12:00",
-        "url": "https://aaai.org/conference/aaai/aaai-25/",
-        "abstractDeadline": "2024-08-07T23:59:59.000-12:00",
-        "note": "Mandatory abstract deadline on Aug 07, 2024, and supplementary material deadline on Aug 19, 2024. More info <a href='https://aaai.org/conference/aaai/aaai-25/'>here</a>.",
-        "conferenceTime": "February 25 - March 04, 2025"
     }
 ]
