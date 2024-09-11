@@ -20,16 +20,6 @@
         "conferenceTime": "Apr 24-28, 2025"
     },
     {
-        "name": "WACV 2025",
-        "shortcut": "WACV",
-        "location": "Tucson, Arizona",
-        "deadline": "2024-09-09T23:59:59.000-07:00",
-        "url": "https://wacv2025.thecvf.com/",
-        "abstractDeadline": null,
-        "note": "This is the second round of submissions. Summplementary material deadline on Sep 11, 2024. More info <a href='https://wacv2025.thecvf.com/'>here</a>.",
-        "conferenceTime": "Feb 28 – Mar 4, 2025"
-    },
-    {
         "name": "COLING 2025",
         "shortcut": "COLING",
         "location": "Abu Dhabi, UAE",
