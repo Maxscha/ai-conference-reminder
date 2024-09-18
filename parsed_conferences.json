@@ -28,15 +28,5 @@
         "abstractDeadline": "2024-09-27T23:59:59.000-12:00",
         "note": "Mandatory abstract deadline on September 27, 2024. More info <a href='https://iclr.cc/Conferences/2025/CallForPapers'>here</a>.",
         "conferenceTime": "Apr 24-28, 2025"
-    },
-    {
-        "name": "COLING 2025",
-        "shortcut": "COLING",
-        "location": "Abu Dhabi, UAE",
-        "deadline": "2024-09-16T23:59:59.000-12:00",
-        "url": "https://coling2025.org/",
-        "abstractDeadline": null,
-        "note": "More info can be found <a href=\"https://coling2025.org/calls/main_conference_papers/#important-dates\">here</a>.",
-        "conferenceTime": "January 19-24, 2025"
     }
 ]
