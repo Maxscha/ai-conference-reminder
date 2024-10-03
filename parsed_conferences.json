@@ -18,15 +18,5 @@
         "abstractDeadline": null,
         "note": "All submissions must be done through ARR. More info <a href='https://2025.naacl.org/calls/papers/'>here</a>.",
         "conferenceTime": "April 29 - May 4, 2024"
-    },
-    {
-        "name": "ICLR 2025",
-        "shortcut": "ICLR",
-        "location": "Singapore",
-        "deadline": "2024-10-01T23:59:59.000-12:00",
-        "url": "https://iclr.cc/Conferences/2025/CallForPapers",
-        "abstractDeadline": "2024-09-27T23:59:59.000-12:00",
-        "note": "Mandatory abstract deadline on September 27, 2024. More info <a href='https://iclr.cc/Conferences/2025/CallForPapers'>here</a>.",
-        "conferenceTime": "Apr 24-28, 2025"
     }
 ]
