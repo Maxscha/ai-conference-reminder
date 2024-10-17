@@ -8,15 +8,5 @@
         "abstractDeadline": "2024-11-08T06:59:59.000Z",
         "note": "Mandatory paper registration deadline on November 07, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.",
         "conferenceTime": "June 10-17, 2025"
-    },
-    {
-        "name": "NAACL 2025",
-        "shortcut": "NAACL",
-        "location": "Albuquerque, New Mexico, USA",
-        "deadline": "2024-10-15T23:59:59.000-12:00",
-        "url": "https://2025.naacl.org",
-        "abstractDeadline": null,
-        "note": "All submissions must be done through ARR. More info <a href='https://2025.naacl.org/calls/papers/'>here</a>.",
-        "conferenceTime": "April 29 - May 4, 2024"
     }
 ]
