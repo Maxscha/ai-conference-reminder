@@ -20,6 +20,16 @@
         "conferenceTime": "June 8-12, 2025"
     },
     {
+        "name": "COLM 2025",
+        "shortcut": "COLM",
+        "location": "Palais des Congrès Montreal, Canada",
+        "deadline": "2025-03-27T23:59:59.000-12:00",
+        "url": "https://colmweb.org/cfp.html",
+        "abstractDeadline": "2025-03-20T23:59:59.000-12:00",
+        "note": "",
+        "conferenceTime": "October 7-9, 2025"
+    },
+    {
         "name": "ICCV 2025",
         "shortcut": "ICCV",
         "location": "Honolulu, Hawaii",

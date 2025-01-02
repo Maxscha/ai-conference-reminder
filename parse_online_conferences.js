@@ -89,12 +89,22 @@ const conferenceDenyList = [
 
   const goodConferenceData = [];
   for (const conference of conferenceData) {
+    if (conference.conference.timezone.toLowerCase() == "aoe"){
+      conference.conference.timezone = "UTC-12";
+    }
     // TODO Incooperate multiple deadlines if available
     last_deadline = conference.conference.timeline[conference.conference.timeline.length - 1];
 
     // accept only conferences with a deadline in the future
     const deadline = parseDateWithTimezone(last_deadline.deadline, conference.conference.timezone);
     const now = DateTime.now();
+
+    if (!deadline.isValid ) {
+      console.log(deadline);
+      console.log("Invalid deadline for conference: ", conference.title);
+      continue;
+    }
+
     if (!deadline.isValid || deadline < now) {
       continue;
     }
