@@ -2,7 +2,7 @@ name: Pull Latest Conferences
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Run the job every day at 00:00 UTC
+    - cron: "0 0 * * *" # Run the job every day at 00:00 UTC
 
 jobs:
   run-script:
@@ -15,11 +15,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+      - name: Checkout conference repository
+        uses: actions/checkout@v3
+        with:
+          repository: "ccfddl/ccf-deadlines"
+          path: "ccf-deadlines"
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: "16"
 
       - name: Install Dependencies
         run: npm install

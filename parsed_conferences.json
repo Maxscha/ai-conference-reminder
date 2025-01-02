@@ -1,1 +1,72 @@
-[]
+[
+    {
+        "name": "ACL 2025",
+        "shortcut": "ACL",
+        "location": "Vienna, Austria",
+        "deadline": "2025-02-15T23:59:59.000-12:00",
+        "url": "https://2025.aclweb.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "July 27 - August 1, 2025"
+    },
+    {
+        "name": "CEC 2025",
+        "shortcut": "CEC",
+        "location": "Hangzhou, China",
+        "deadline": "2025-01-15T23:59:59.000-12:00",
+        "url": "https://www.cec2025.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "June 8-12, 2025"
+    },
+    {
+        "name": "ICCV 2025",
+        "shortcut": "ICCV",
+        "location": "Honolulu, Hawaii",
+        "deadline": "2025-03-07T07:59:59.000Z",
+        "url": "https://iccv2025.thecvf.com/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "October 19-25, 2025"
+    },
+    {
+        "name": "ICDAR 2025",
+        "shortcut": "ICDAR",
+        "location": "Wuhan, China",
+        "deadline": "2025-02-21T23:59:59.000Z",
+        "url": "https://www.icdar2025.com/home",
+        "abstractDeadline": "2025-02-07T23:59:59.000Z",
+        "note": "",
+        "conferenceTime": "September 17-21, 2025"
+    },
+    {
+        "name": "ICML 2025",
+        "shortcut": "ICML",
+        "location": "Vancouver Convention Center, Vancouver, Canada",
+        "deadline": "2025-01-30T23:59:59.000-12:00",
+        "url": "https://icml.cc/Conferences/2025",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "July 11-19, 2025"
+    },
+    {
+        "name": "IJCAI 2025",
+        "shortcut": "IJCAI",
+        "location": "Montreal, Canada.",
+        "deadline": "2025-01-23T23:59:59.000-12:00",
+        "url": "https://2025.ijcai.org/",
+        "abstractDeadline": "2025-01-16T23:59:59.000-12:00",
+        "note": "",
+        "conferenceTime": "August 16-22, 2025"
+    },
+    {
+        "name": "IJCNN 2025",
+        "shortcut": "IJCNN",
+        "location": "Rome, Italy",
+        "deadline": "2025-01-15T23:59:59.000-12:00",
+        "url": "https://2025.ijcnn.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "June 30 - July 5, 2025"
+    }
+]

@@ -2,6 +2,7 @@ const axios = require('axios');
 const yaml = require('js-yaml');
 const { DateTime } = require('luxon');
 const fs = require('fs');
+const { exit } = require('process');
 
 function parseDateWithTimezone(inputDate, timezone) {
   return DateTime.fromFormat(inputDate, 'yyyy-MM-dd HH:mm:ss', { zone: timezone });
@@ -69,28 +70,30 @@ const conferenceDenyList = [
 ];
 
 (async () => {
-  const url = 'https://raw.githubusercontent.com/paperswithcode/ai-deadlines/gh-pages/_data/conferences.yml';
+  const folder = 'ccf-deadlines/conference/AI'
+  const files = fs.readdirSync(folder).filter((file) => file.endsWith('.yml'));
+
   let conferenceData = [];
-  try {
-    const yamlContent = await downloadYamlFile(url);
-    conferenceData = parseYaml(yamlContent);
-  } catch (error) {
-    console.error(`Error: ${error.message}`);
+
+  for (const file of files) {
+    const filePath = `${folder}/${file}`;
+    const yamlContent = fs.readFileSync(filePath, 'utf8');
+    data = parseYaml(yamlContent)[0];
+    data.confs.sort((a, b) => a.year - b.year);
+    data.conference = data.confs[data.confs.length - 1];
+    data.deadline = null;
+    data.abstract_deadline = null;
+    conferenceData.push(data);
+
   }
 
   const goodConferenceData = [];
   for (const conference of conferenceData) {
-    // accept only sub ML, NLP, and CV
-    if (!['ML', 'NLP', 'CV'].some((topic) => conference.sub.includes(topic))) {
-      continue;
-    }
-
-    if (conference.deadline == null) {
-      continue;
-    }
+    // TODO Incooperate multiple deadlines if available
+    last_deadline = conference.conference.timeline[conference.conference.timeline.length - 1];
 
     // accept only conferences with a deadline in the future
-    const deadline = parseDateWithTimezone(conference.deadline, conference.timezone);
+    const deadline = parseDateWithTimezone(last_deadline.deadline, conference.conference.timezone);
     const now = DateTime.now();
     if (!deadline.isValid || deadline < now) {
       continue;
@@ -100,25 +103,29 @@ const conferenceDenyList = [
       continue;
     }
 
+    let abstract_deadline = null;
+
+    if ("abstract_deadline" in last_deadline) {
+      abstract_deadline = parseDateWithTimezone(last_deadline.abstract_deadline, conference.conference.timezone);
+    }
+
     const manuallyAddedConferences = await readJSONFile('./conferences.json');
     const alreadyManuallyAdded = manuallyAddedConferences.some((manualConference) => manualConference.shortcut.toLowerCase().includes(conference.title.toLowerCase()));
     if (alreadyManuallyAdded) continue;
 
     const conferenceObject = {
-      name: `${conference.title} ${conference.year}`,
+      name: `${conference.title} ${conference.conference.year}`,
       shortcut: conference.title,
-      location: conference.place,
+      location: conference.conference.place,
       deadline: deadline.toISO(),
-      url: conference.link,
-      abstractDeadline: conference.abstract_deadline ? parseDateWithTimezone(conference.abstract_deadline, conference.timezone).toISO() : null,
-      note: conference.note,
-      conferenceTime: conference.date,
+      url: conference.conference.link,
+      abstractDeadline: abstract_deadline ? abstract_deadline : null,
+      note: "",
+      conferenceTime: conference.conference.date,
     };
-    console.log(conference.deadline, conference.timezone);
-    console.log(conferenceObject);
     goodConferenceData.push(conferenceObject);
   }
-
+  console.log("Number of good conferences: ", goodConferenceData.length);
   // Convert the JSON array to a string
   // The second argument (null) is a replacer function, and the third argument (4) is the number of spaces to use for indentation.
   const jsonString = JSON.stringify(goodConferenceData, null, 4);
