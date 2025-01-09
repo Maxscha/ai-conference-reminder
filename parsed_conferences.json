@@ -30,6 +30,16 @@
         "conferenceTime": "October 7-9, 2025"
     },
     {
+        "name": "ECAI 2025",
+        "shortcut": "ECAI",
+        "location": "Bologna, ITALY",
+        "deadline": "2025-05-06T23:59:59.000-12:00",
+        "url": "https://ecai2025.org/deadlines/",
+        "abstractDeadline": "2025-04-29T23:59:59.000-12:00",
+        "note": "",
+        "conferenceTime": "October 25-30, 2025"
+    },
+    {
         "name": "ICCV 2025",
         "shortcut": "ICCV",
         "location": "Honolulu, Hawaii",
