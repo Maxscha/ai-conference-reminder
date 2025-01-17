@@ -10,16 +10,6 @@
         "conferenceTime": "July 27 - August 1, 2025"
     },
     {
-        "name": "CEC 2025",
-        "shortcut": "CEC",
-        "location": "Hangzhou, China",
-        "deadline": "2025-01-15T23:59:59.000-12:00",
-        "url": "https://www.cec2025.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "June 8-12, 2025"
-    },
-    {
         "name": "COLM 2025",
         "shortcut": "COLM",
         "location": "Palais des Congrès Montreal, Canada",
