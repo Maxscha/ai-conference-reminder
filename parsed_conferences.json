@@ -60,16 +60,6 @@
         "conferenceTime": "July 11-19, 2025"
     },
     {
-        "name": "IJCAI 2025",
-        "shortcut": "IJCAI",
-        "location": "Montreal, Canada.",
-        "deadline": "2025-01-23T23:59:59.000-12:00",
-        "url": "https://2025.ijcai.org/",
-        "abstractDeadline": "2025-01-16T23:59:59.000-12:00",
-        "note": "",
-        "conferenceTime": "August 16-22, 2025"
-    },
-    {
         "name": "IJCNN 2025",
         "shortcut": "IJCNN",
         "location": "Rome, Italy",
