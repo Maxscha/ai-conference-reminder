@@ -55,7 +55,7 @@
         "location": "Vancouver Convention Center, Vancouver, Canada",
         "deadline": "2025-01-30T23:59:59.000-12:00",
         "url": "https://icml.cc/Conferences/2025",
-        "abstractDeadline": null,
+        "abstractDeadline": "2025-01-23T23:59:59.000-12:00",
         "note": "",
         "conferenceTime": "July 11-19, 2025"
     },
