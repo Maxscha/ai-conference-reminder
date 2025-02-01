@@ -48,25 +48,5 @@
         "abstractDeadline": "2025-02-07T23:59:59.000Z",
         "note": "",
         "conferenceTime": "September 17-21, 2025"
-    },
-    {
-        "name": "ICML 2025",
-        "shortcut": "ICML",
-        "location": "Vancouver Convention Center, Vancouver, Canada",
-        "deadline": "2025-01-30T23:59:59.000-12:00",
-        "url": "https://icml.cc/Conferences/2025",
-        "abstractDeadline": "2025-01-23T23:59:59.000-12:00",
-        "note": "",
-        "conferenceTime": "July 11-19, 2025"
-    },
-    {
-        "name": "IJCNN 2025",
-        "shortcut": "IJCNN",
-        "location": "Rome, Italy",
-        "deadline": "2025-01-30T23:59:59.000-12:00",
-        "url": "https://2025.ijcnn.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "June 30 - July 5, 2025"
     }
 ]
