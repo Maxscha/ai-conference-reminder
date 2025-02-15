@@ -68,5 +68,15 @@
         "abstractDeadline": "2025-02-07T23:59:59.000Z",
         "note": "",
         "conferenceTime": "September 17-21, 2025"
+    },
+    {
+        "name": "KSEM 2025",
+        "shortcut": "KSEM",
+        "location": "Macao SAR, China",
+        "deadline": "2025-03-04T23:59:59.000Z",
+        "url": "https://ksem2025.scimeeting.cn/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "August 4-6, 2025"
     }
 ]
