@@ -1,15 +1,5 @@
 [
     {
-        "name": "ACL 2025",
-        "shortcut": "ACL",
-        "location": "Vienna, Austria",
-        "deadline": "2025-02-15T23:59:59.000-12:00",
-        "url": "https://2025.aclweb.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "July 27 - August 1, 2025"
-    },
-    {
         "name": "COLM 2025",
         "shortcut": "COLM",
         "location": "Palais des Congrès Montreal, Canada",
