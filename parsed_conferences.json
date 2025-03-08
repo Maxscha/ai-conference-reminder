@@ -50,16 +50,6 @@
         "conferenceTime": "October 19-25, 2025"
     },
     {
-        "name": "ICDAR 2025",
-        "shortcut": "ICDAR",
-        "location": "Wuhan, China",
-        "deadline": "2025-03-07T23:59:59.000Z",
-        "url": "https://www.icdar2025.com/home",
-        "abstractDeadline": "2025-02-28T23:59:59.000Z",
-        "note": "",
-        "conferenceTime": "September 17-21, 2025"
-    },
-    {
         "name": "NeurIPS 2025",
         "shortcut": "NeurIPS",
         "location": "San Diego Convention Center, USA",
