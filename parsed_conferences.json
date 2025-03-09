@@ -40,16 +40,6 @@
         "conferenceTime": "Sept 9-12, 2025"
     },
     {
-        "name": "ICCV 2025",
-        "shortcut": "ICCV",
-        "location": "Honolulu, Hawaii",
-        "deadline": "2025-03-08T09:59:59.000Z",
-        "url": "https://iccv.thecvf.com/Conferences/2025",
-        "abstractDeadline": "2025-03-04T09:59:59.000Z",
-        "note": "",
-        "conferenceTime": "October 19-25, 2025"
-    },
-    {
         "name": "NeurIPS 2025",
         "shortcut": "NeurIPS",
         "location": "San Diego Convention Center, USA",
