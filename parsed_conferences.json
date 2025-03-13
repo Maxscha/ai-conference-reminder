@@ -20,6 +20,16 @@
         "conferenceTime": "October 25-30, 2025"
     },
     {
+        "name": "ECCV 2026",
+        "shortcut": "ECCV",
+        "location": "Malmö, Sweden",
+        "deadline": "2026-03-06T13:00:00.000-08:00",
+        "url": "https://eccv.ecva.net/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "September 8 - 13, 2026"
+    },
+    {
         "name": "EMNLP 2025",
         "shortcut": "EMNLP",
         "location": "Suzhou, China",
