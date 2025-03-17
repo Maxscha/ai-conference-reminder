@@ -50,6 +50,16 @@
         "conferenceTime": "Sept 9-12, 2025"
     },
     {
+        "name": "ICONIP 2025",
+        "shortcut": "ICONIP",
+        "location": "Okinawa, Japan",
+        "deadline": "2025-05-15T23:59:59.000-12:00",
+        "url": "https://iconip2025.apnns.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "November 20-24, 2025"
+    },
+    {
         "name": "KSEM 2025",
         "shortcut": "KSEM",
         "location": "Macao SAR, China",
