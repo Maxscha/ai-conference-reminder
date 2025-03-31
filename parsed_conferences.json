@@ -30,16 +30,6 @@
         "conferenceTime": "November 5 - 9, 2025"
     },
     {
-        "name": "ICANN 2025",
-        "shortcut": "ICANN",
-        "location": "Kaunas, Lithuania",
-        "deadline": "2025-03-29T23:59:59.000-12:00",
-        "url": "https://e-nns.org/icann2025/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "Sept 9-12, 2025"
-    },
-    {
         "name": "ICONIP 2025",
         "shortcut": "ICONIP",
         "location": "Okinawa, Japan",
