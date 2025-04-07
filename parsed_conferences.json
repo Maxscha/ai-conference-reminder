@@ -58,15 +58,5 @@
         "abstractDeadline": "2025-05-11T23:59:59.000-12:00",
         "note": "",
         "conferenceTime": "December 2-7, 2025"
-    },
-    {
-        "name": "NLPCC 2025",
-        "shortcut": "NLPCC",
-        "location": "Urumqi, China",
-        "deadline": "2025-04-06T23:59:59.000+08:00",
-        "url": "http://tcci.ccf.org.cn/conference/2025/index.php",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "August 8-10, 2025"
     }
 ]
