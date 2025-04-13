@@ -40,16 +40,6 @@
         "conferenceTime": "November 20-24, 2025"
     },
     {
-        "name": "IJCB 2025",
-        "shortcut": "IJCB",
-        "location": "Osaka, Japan",
-        "deadline": "2025-04-11T23:59:59.000-07:00",
-        "url": "https://ijcb2025.ieee-biometrics.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "September 8-11, 2025"
-    },
-    {
         "name": "NeurIPS 2025",
         "shortcut": "NeurIPS",
         "location": "San Diego Convention Center, USA",
