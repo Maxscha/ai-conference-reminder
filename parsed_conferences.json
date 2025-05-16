@@ -50,6 +50,16 @@
         "conferenceTime": "November 20-24, 2025"
     },
     {
+        "name": "IJCNLP 2025",
+        "shortcut": "IJCNLP",
+        "location": "Mumbai, India",
+        "deadline": "2025-07-28T23:59:59.000-12:00",
+        "url": "https://www.afnlp.org/conferences/ijcnlp2025/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "Dec 20-24, 2025"
+    },
+    {
         "name": "NeurIPS 2025",
         "shortcut": "NeurIPS",
         "location": "San Diego Convention Center, USA",
