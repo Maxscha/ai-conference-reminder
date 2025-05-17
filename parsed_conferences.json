@@ -10,16 +10,6 @@
         "conferenceTime": "January 20 - 27, 2026"
     },
     {
-        "name": "BMVC 2025",
-        "shortcut": "BMVC",
-        "location": "Sheffield, UK",
-        "deadline": "2025-05-16T23:59:59.000Z",
-        "url": "https://bmvc2025.bmva.org/",
-        "abstractDeadline": "2025-05-13T23:59:59.000Z",
-        "note": "",
-        "conferenceTime": "November 24-27, 2025"
-    },
-    {
         "name": "ECCV 2026",
         "shortcut": "ECCV",
         "location": "Malmö, Sweden",
@@ -58,16 +48,6 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "Dec 20-24, 2025"
-    },
-    {
-        "name": "NeurIPS 2025",
-        "shortcut": "NeurIPS",
-        "location": "San Diego Convention Center, USA",
-        "deadline": "2025-05-15T23:59:59.000-12:00",
-        "url": "https://neurips.cc/Conferences/2025",
-        "abstractDeadline": "2025-05-11T23:59:59.000-12:00",
-        "note": "",
-        "conferenceTime": "December 2-7, 2025"
     },
     {
         "name": "PRICAI 2025",
