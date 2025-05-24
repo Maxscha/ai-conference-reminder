@@ -20,16 +20,6 @@
         "conferenceTime": "September 8 - 13, 2026"
     },
     {
-        "name": "ICONIP 2025",
-        "shortcut": "ICONIP",
-        "location": "Okinawa, Japan",
-        "deadline": "2025-05-22T23:59:59.000-12:00",
-        "url": "https://iconip2025.apnns.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "November 20-24, 2025"
-    },
-    {
         "name": "IJCNLP 2025",
         "shortcut": "IJCNLP",
         "location": "Mumbai, India",
