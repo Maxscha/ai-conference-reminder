@@ -38,5 +38,15 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "Nov 17-21, 2025"
+    },
+    {
+        "name": "WACV 2026",
+        "shortcut": "WACV",
+        "location": "Tucson, Arizona, USA",
+        "deadline": "2025-09-19T23:59:59.000-12:00",
+        "url": "https://wacv.thecvf.com/",
+        "abstractDeadline": "2025-09-12T23:59:00.000-12:00",
+        "note": "",
+        "conferenceTime": "Mar 6 - 10, 2026"
     }
 ]
