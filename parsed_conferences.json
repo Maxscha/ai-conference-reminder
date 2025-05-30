@@ -30,6 +30,16 @@
         "conferenceTime": "Dec 20-24, 2025"
     },
     {
+        "name": "IJCNN 2026",
+        "shortcut": "IJCNN",
+        "location": "Maastricht Exhibition & Congress Center, Maastricht, The Netherlands",
+        "deadline": "2026-01-31T23:59:59.000-12:00",
+        "url": "https://attend.ieee.org/wcci-2026/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "June 21 - 26, 2026"
+    },
+    {
         "name": "PRICAI 2025",
         "shortcut": "PRICAI",
         "location": "Wellington, New Zealand",
