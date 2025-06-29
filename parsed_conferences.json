@@ -20,6 +20,16 @@
         "conferenceTime": "September 8 - 13, 2026"
     },
     {
+        "name": "ICLR 2026",
+        "shortcut": "ICLR",
+        "location": "Brazil",
+        "deadline": "2025-09-25T20:59:59.000-08:00",
+        "url": "https://iclr.cc/Conferences/2026",
+        "abstractDeadline": "2025-09-20T20:59:59.000-08:00",
+        "note": "",
+        "conferenceTime": "May 01-05, 2026"
+    },
+    {
         "name": "IJCNLP 2025",
         "shortcut": "IJCNLP",
         "location": "Mumbai, India",
@@ -38,16 +48,6 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "June 21 - 26, 2026"
-    },
-    {
-        "name": "PRICAI 2025",
-        "shortcut": "PRICAI",
-        "location": "Wellington, New Zealand",
-        "deadline": "2025-06-27T23:59:59.000-12:00",
-        "url": "https://www.pricai.org/2025/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "Nov 17-21, 2025"
     },
     {
         "name": "WACV 2026",
