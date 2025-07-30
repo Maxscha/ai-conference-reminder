@@ -30,16 +30,6 @@
         "conferenceTime": "May 01-05, 2026"
     },
     {
-        "name": "IJCNLP 2025",
-        "shortcut": "IJCNLP",
-        "location": "Mumbai, India",
-        "deadline": "2025-07-28T23:59:59.000-12:00",
-        "url": "https://www.afnlp.org/conferences/ijcnlp2025/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "Dec 20-24, 2025"
-    },
-    {
         "name": "IJCNN 2026",
         "shortcut": "IJCNN",
         "location": "Maastricht Exhibition & Congress Center, Maastricht, The Netherlands",
