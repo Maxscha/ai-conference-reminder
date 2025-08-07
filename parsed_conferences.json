@@ -30,6 +30,16 @@
         "conferenceTime": "June 21 - 26, 2026"
     },
     {
+        "name": "LOG 2025",
+        "shortcut": "LOG",
+        "location": "Arizona State University, Phoenix, USA",
+        "deadline": "2025-08-29T23:59:59.000-12:00",
+        "url": "https://logconference.org/",
+        "abstractDeadline": "2025-08-22T23:59:59.000-12:00",
+        "note": "",
+        "conferenceTime": "December 10-12, 2025"
+    },
+    {
         "name": "WACV 2026",
         "shortcut": "WACV",
         "location": "Tucson, Arizona, USA",
