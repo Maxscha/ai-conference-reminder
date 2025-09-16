@@ -1,5 +1,15 @@
 [
     {
+        "name": "CVPR 2026",
+        "shortcut": "CVPR",
+        "location": "Denver, Colorado, United States",
+        "deadline": "2025-11-14T23:59:00.000Z",
+        "url": "https://cvpr.thecvf.com/Conferences/2026",
+        "abstractDeadline": "2025-11-07T23:59:00.000Z",
+        "note": "",
+        "conferenceTime": "June 2-6, 2026"
+    },
+    {
         "name": "EACL 2026",
         "shortcut": "EACL",
         "location": "Rabat, Morocco",
@@ -18,6 +28,16 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "September 8 - 13, 2026"
+    },
+    {
+        "name": "ESANN 2026",
+        "shortcut": "ESANN",
+        "location": "Bruges, Belgium and Online",
+        "deadline": "2025-11-19T23:59:59.000-08:00",
+        "url": "https://www.esann.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "April 22 - 24, 2026"
     },
     {
         "name": "ICLR 2026",
