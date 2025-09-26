@@ -1,5 +1,15 @@
 [
     {
+        "name": "CPAL 2026",
+        "shortcut": "CPAL",
+        "location": "Tübingen, Germany",
+        "deadline": "2025-12-05T23:59:59.000-12:00",
+        "url": "https://cpal.cc/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "March 23-27, 2026"
+    },
+    {
         "name": "CVPR 2026",
         "shortcut": "CVPR",
         "location": "Denver, Colorado, United States",
@@ -38,16 +48,6 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "April 22 - 24, 2026"
-    },
-    {
-        "name": "ICLR 2026",
-        "shortcut": "ICLR",
-        "location": "Brazil",
-        "deadline": "2025-09-24T23:59:59.000-12:00",
-        "url": "https://iclr.cc/Conferences/2026",
-        "abstractDeadline": "2025-09-19T23:59:59.000-12:00",
-        "note": "",
-        "conferenceTime": "May 01-05, 2026"
     },
     {
         "name": "IJCNN 2026",
