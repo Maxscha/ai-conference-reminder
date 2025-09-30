@@ -13,11 +13,11 @@
         "name": "CVPR 2026",
         "shortcut": "CVPR",
         "location": "Denver, Colorado, United States",
-        "deadline": "2025-11-14T23:59:00.000Z",
+        "deadline": "2025-11-13T23:59:00.000-12:00",
         "url": "https://cvpr.thecvf.com/Conferences/2026",
-        "abstractDeadline": "2025-11-07T23:59:00.000Z",
+        "abstractDeadline": "2025-11-06T23:59:00.000-12:00",
         "note": "",
-        "conferenceTime": "June 2-6, 2026"
+        "conferenceTime": "June 3-7, 2026"
     },
     {
         "name": "EACL 2026",
