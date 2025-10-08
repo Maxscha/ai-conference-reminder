@@ -20,16 +20,6 @@
         "conferenceTime": "June 3-7, 2026"
     },
     {
-        "name": "EACL 2026",
-        "shortcut": "EACL",
-        "location": "Rabat, Morocco",
-        "deadline": "2025-10-06T23:59:59.000-12:00",
-        "url": "https://2026.eacl.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "March 24-29, 2026"
-    },
-    {
         "name": "ECCV 2026",
         "shortcut": "ECCV",
         "location": "Malmö, Sweden",
