@@ -50,6 +50,26 @@
         "conferenceTime": "April 22 - 24, 2026"
     },
     {
+        "name": "ICCBR 2026",
+        "shortcut": "ICCBR",
+        "location": "Bremen, Germany",
+        "deadline": "2026-03-20T23:59:59.000-12:00",
+        "url": "https://2026.iccbr.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "August 13-16, 2026"
+    },
+    {
+        "name": "IJCB 2026",
+        "shortcut": "IJCB",
+        "location": "Rome, Italy",
+        "deadline": "2026-04-10T23:59:59.000-12:00",
+        "url": "https://ijcb2026.ieee-biometrics.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "September 1-4, 2026"
+    },
+    {
         "name": "IJCNN 2026",
         "shortcut": "IJCNN",
         "location": "Maastricht Exhibition & Congress Center, Maastricht, The Netherlands",
@@ -58,5 +78,25 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "June 21 - 26, 2026"
+    },
+    {
+        "name": "KSEM 2026",
+        "shortcut": "KSEM",
+        "location": "Beijing, China",
+        "deadline": "2026-01-15T23:59:59.000Z",
+        "url": "https://ksem2026.rosc.org.cn/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "July 17-19, 2026"
+    },
+    {
+        "name": "PPSN 2026",
+        "shortcut": "PPSN",
+        "location": "University of Trento, Trento, Italy",
+        "deadline": "2026-03-28T23:59:59.000-12:00",
+        "url": "https://ppsn2026.disi.unitn.it/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "August 29-September 2, 2026"
     }
 ]
