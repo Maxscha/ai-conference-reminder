@@ -60,6 +60,16 @@
         "conferenceTime": "August 13-16, 2026"
     },
     {
+        "name": "ICDAR 2026",
+        "shortcut": "ICDAR",
+        "location": "Vienna, Austria",
+        "deadline": "2026-02-27T23:59:59.000Z",
+        "url": "https://icdar2026.org/",
+        "abstractDeadline": "2026-02-13T23:59:59.000Z",
+        "note": "",
+        "conferenceTime": "August 30 - September 4, 2026"
+    },
+    {
         "name": "ICML 2026",
         "shortcut": "ICML",
         "location": "Seoul, Korea",
