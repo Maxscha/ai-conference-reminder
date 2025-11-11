@@ -80,6 +80,16 @@
         "conferenceTime": "July 6-12, 2026"
     },
     {
+        "name": "IJCAI 2026",
+        "shortcut": "IJCAI",
+        "location": "Bremen, Germany",
+        "deadline": "2026-01-19T23:59:59.000-12:00",
+        "url": "https://2026.ijcai.org/",
+        "abstractDeadline": "2026-01-12T23:59:59.000-12:00",
+        "note": "",
+        "conferenceTime": "August 15-21, 2026"
+    },
+    {
         "name": "IJCB 2026",
         "shortcut": "IJCB",
         "location": "Rome, Italy",
