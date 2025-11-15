@@ -20,16 +20,6 @@
         "conferenceTime": "March 23-27, 2026"
     },
     {
-        "name": "CVPR 2026",
-        "shortcut": "CVPR",
-        "location": "Denver, Colorado, United States",
-        "deadline": "2025-11-13T23:59:00.000-12:00",
-        "url": "https://cvpr.thecvf.com/Conferences/2026",
-        "abstractDeadline": "2025-11-06T23:59:00.000-12:00",
-        "note": "",
-        "conferenceTime": "June 3-7, 2026"
-    },
-    {
         "name": "ECCV 2026",
         "shortcut": "ECCV",
         "location": "Malmö, Sweden",
