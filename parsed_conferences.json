@@ -1,5 +1,15 @@
 [
     {
+        "name": "ACCV 2026",
+        "shortcut": "ACCV",
+        "location": "Osaka, japan",
+        "deadline": "2026-07-05T23:59:59.000-12:00",
+        "url": "https://accv2026.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "December 14-18, 2026"
+    },
+    {
         "name": "ACL 2026",
         "shortcut": "ACL",
         "location": "San Diego, California, United States",
@@ -38,6 +48,16 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "April 22 - 24, 2026"
+    },
+    {
+        "name": "ICANN 2026",
+        "shortcut": "ICANN",
+        "location": "Conference center of the School of Psychology, University of Padua, Italy",
+        "deadline": "2026-03-16T23:59:59.000-12:00",
+        "url": "https://e-nns.org/icann2026/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "Sept 14-17, 2026"
     },
     {
         "name": "ICCBR 2026",
