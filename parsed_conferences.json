@@ -40,16 +40,6 @@
         "conferenceTime": "September 8 - 13, 2026"
     },
     {
-        "name": "ESANN 2026",
-        "shortcut": "ESANN",
-        "location": "Bruges, Belgium and Online",
-        "deadline": "2025-11-19T23:59:59.000-08:00",
-        "url": "https://www.esann.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "April 22 - 24, 2026"
-    },
-    {
         "name": "ICANN 2026",
         "shortcut": "ICANN",
         "location": "Conference center of the School of Psychology, University of Padua, Italy",
