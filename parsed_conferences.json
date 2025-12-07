@@ -20,16 +20,6 @@
         "conferenceTime": "July 2 - 7, 2026"
     },
     {
-        "name": "CPAL 2026",
-        "shortcut": "CPAL",
-        "location": "Tübingen, Germany",
-        "deadline": "2025-12-05T23:59:59.000-12:00",
-        "url": "https://cpal.cc/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "March 23-27, 2026"
-    },
-    {
         "name": "ECCV 2026",
         "shortcut": "ECCV",
         "location": "Malmö, Sweden",
