@@ -20,6 +20,16 @@
         "conferenceTime": "July 2 - 7, 2026"
     },
     {
+        "name": "CoNLL 2026",
+        "shortcut": "CoNLL",
+        "location": "San Diego, California, United States",
+        "deadline": "2026-02-19T23:59:59.000-12:00",
+        "url": "https://www.conll.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "July 3 - 4, 2026"
+    },
+    {
         "name": "ECCV 2026",
         "shortcut": "ECCV",
         "location": "Malmö, Sweden",
