@@ -10,16 +10,6 @@
         "conferenceTime": "December 14-18, 2026"
     },
     {
-        "name": "ACL 2026",
-        "shortcut": "ACL",
-        "location": "San Diego, California, United States",
-        "deadline": "2026-01-05T23:59:59.000-12:00",
-        "url": "https://2026.aclweb.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "July 2 - 7, 2026"
-    },
-    {
         "name": "CoNLL 2026",
         "shortcut": "CoNLL",
         "location": "San Diego, California, United States",
