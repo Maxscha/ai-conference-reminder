@@ -128,5 +128,15 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "August 29-September 2, 2026"
+    },
+    {
+        "name": "RuleML+RR 2026",
+        "shortcut": "RuleML+RR",
+        "location": "Vilnius, Lithuania",
+        "deadline": "2026-05-15T23:59:59.000-12:00",
+        "url": "https://2026.declarativeai.net/events/ruleml-rr",
+        "abstractDeadline": "2026-05-08T23:59:59.000-12:00",
+        "note": "",
+        "conferenceTime": "August 24-26, 2026"
     }
 ]
