@@ -110,16 +110,6 @@
         "conferenceTime": "June 21 - 26, 2026"
     },
     {
-        "name": "KSEM 2026",
-        "shortcut": "KSEM",
-        "location": "Beijing, China",
-        "deadline": "2026-01-15T23:59:59.000Z",
-        "url": "https://ksem2026.rosc.org.cn/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "July 17-19, 2026"
-    },
-    {
         "name": "PPSN 2026",
         "shortcut": "PPSN",
         "location": "University of Trento, Trento, Italy",
