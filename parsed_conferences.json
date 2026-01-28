@@ -40,16 +40,6 @@
         "conferenceTime": "September 8 - 13, 2026"
     },
     {
-        "name": "GECCO 2026",
-        "shortcut": "GECCO",
-        "location": "San José, Costa Rica (hybrid)",
-        "deadline": "2026-01-26T23:59:00.000-12:00",
-        "url": "https://gecco-2026.sigevo.org/HomePage",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "July 13-17, 2026"
-    },
-    {
         "name": "ICANN 2026",
         "shortcut": "ICANN",
         "location": "Conference center of the School of Psychology, University of Padua, Italy",
