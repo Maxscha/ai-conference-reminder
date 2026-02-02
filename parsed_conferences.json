@@ -80,16 +80,6 @@
         "conferenceTime": "September 1-4, 2026"
     },
     {
-        "name": "IJCNN 2026",
-        "shortcut": "IJCNN",
-        "location": "Maastricht Exhibition & Congress Center, Maastricht, The Netherlands",
-        "deadline": "2026-01-31T23:59:59.000-12:00",
-        "url": "https://attend.ieee.org/wcci-2026/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "June 21 - 26, 2026"
-    },
-    {
         "name": "PPSN 2026",
         "shortcut": "PPSN",
         "location": "University of Trento, Trento, Italy",
