@@ -90,6 +90,16 @@
         "conferenceTime": "August 29-September 2, 2026"
     },
     {
+        "name": "ProbML 2026",
+        "shortcut": "ProbML",
+        "location": "Seoul, South Korea",
+        "deadline": "2026-03-20T11:59:00.000-12:00",
+        "url": "https://probml.cc",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "July 5, 2026"
+    },
+    {
         "name": "RuleML+RR 2026",
         "shortcut": "RuleML+RR",
         "location": "Vilnius, Lithuania",
