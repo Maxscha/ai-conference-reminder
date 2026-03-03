@@ -30,6 +30,16 @@
         "conferenceTime": "September 8 - 13, 2026"
     },
     {
+        "name": "EMNLP 2026",
+        "shortcut": "EMNLP",
+        "location": "Budapest, Hungary",
+        "deadline": "2026-05-25T23:59:59.000-12:00",
+        "url": "https://2026.emnlp.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "October 24 - 29, 2026"
+    },
+    {
         "name": "ICANN 2026",
         "shortcut": "ICANN",
         "location": "Conference center of the School of Psychology, University of Padua, Italy",
