@@ -2,7 +2,7 @@
     {
         "name": "ACCV 2026",
         "shortcut": "ACCV",
-        "location": "Osaka, japan",
+        "location": "Osaka, Japan",
         "deadline": "2026-07-05T23:59:59.000-12:00",
         "url": "https://accv2026.org/",
         "abstractDeadline": null,
@@ -88,6 +88,16 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "August 29-September 2, 2026"
+    },
+    {
+        "name": "PRICAI 2026",
+        "shortcut": "PRICAI",
+        "location": "Guangzhou, China",
+        "deadline": "2026-06-13T23:59:59.000-12:00",
+        "url": "https://2026.pricai.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "Nov 17-20, 2026"
     },
     {
         "name": "ProbML 2026",
