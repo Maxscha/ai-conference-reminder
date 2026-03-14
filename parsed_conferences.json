@@ -60,6 +60,16 @@
         "conferenceTime": "August 13-16, 2026"
     },
     {
+        "name": "ICONIP 2026",
+        "shortcut": "ICONIP",
+        "location": "Melbourne, Australia",
+        "deadline": "2026-05-10T23:59:59.000-12:00",
+        "url": "https://www.iconip2026.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "November 23-27, 2026"
+    },
+    {
         "name": "IJCB 2026",
         "shortcut": "IJCB",
         "location": "Rome, Italy",
