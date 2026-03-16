@@ -70,6 +70,16 @@
         "conferenceTime": "November 23-27, 2026"
     },
     {
+        "name": "ICTAI 2026",
+        "shortcut": "ICTAI",
+        "location": "Boca Raton FL, USA",
+        "deadline": "2026-06-30T23:59:00.000-12:00",
+        "url": "https://ictai.computer.org/2026/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "November 02-04, 2026"
+    },
+    {
         "name": "IJCB 2026",
         "shortcut": "IJCB",
         "location": "Rome, Italy",
@@ -88,6 +98,16 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "December 6, 2026"
+    },
+    {
+        "name": "NLPCC 2026",
+        "shortcut": "NLPCC",
+        "location": "Macau, China",
+        "deadline": "2026-05-26T23:59:59.000+08:00",
+        "url": "http://tcci.ccf.org.cn/conference/2026/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "November 3-5, 2026"
     },
     {
         "name": "PPSN 2026",
