@@ -50,16 +50,6 @@
         "conferenceTime": "Sept 14-17, 2026"
     },
     {
-        "name": "ICCBR 2026",
-        "shortcut": "ICCBR",
-        "location": "Bremen, Germany",
-        "deadline": "2026-03-20T23:59:59.000-12:00",
-        "url": "https://2026.iccbr.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "August 13-16, 2026"
-    },
-    {
         "name": "ICONIP 2026",
         "shortcut": "ICONIP",
         "location": "Melbourne, Australia",
