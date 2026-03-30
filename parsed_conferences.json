@@ -100,16 +100,6 @@
         "conferenceTime": "November 3-5, 2026"
     },
     {
-        "name": "PPSN 2026",
-        "shortcut": "PPSN",
-        "location": "University of Trento, Trento, Italy",
-        "deadline": "2026-03-28T23:59:59.000-12:00",
-        "url": "https://ppsn2026.disi.unitn.it/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "August 29-September 2, 2026"
-    },
-    {
         "name": "PRICAI 2026",
         "shortcut": "PRICAI",
         "location": "Guangzhou, China",
