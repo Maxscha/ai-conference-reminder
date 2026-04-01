@@ -40,16 +40,6 @@
         "conferenceTime": "October 24 - 29, 2026"
     },
     {
-        "name": "ICANN 2026",
-        "shortcut": "ICANN",
-        "location": "Conference center of the School of Psychology, University of Padua, Italy",
-        "deadline": "2026-03-30T23:59:59.000-12:00",
-        "url": "https://e-nns.org/icann2026/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "Sept 14-17, 2026"
-    },
-    {
         "name": "ICONIP 2026",
         "shortcut": "ICONIP",
         "location": "Melbourne, Australia",
