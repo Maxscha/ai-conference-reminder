@@ -30,6 +30,16 @@
         "conferenceTime": "October 24 - 29, 2026"
     },
     {
+        "name": "EUVIP 2026",
+        "shortcut": "EUVIP",
+        "location": "Luxembourg, Luxembourg",
+        "deadline": "2026-05-21T23:59:59.000+02:00",
+        "url": "https://euvip2026.github.io/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "September 28 - October 1, 2026"
+    },
+    {
         "name": "ICONIP 2026",
         "shortcut": "ICONIP",
         "location": "Melbourne, Australia",
@@ -58,6 +68,16 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "September 1-4, 2026"
+    },
+    {
+        "name": "IJCNLP 2026",
+        "shortcut": "IJCNLP",
+        "location": "Hengqin, China",
+        "deadline": "2026-05-25T23:59:59.000-12:00",
+        "url": "https://2026.aaclnet.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "Nov 6-10, 2026"
     },
     {
         "name": "NeurIPS 2026",
