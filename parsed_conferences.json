@@ -60,6 +60,16 @@
         "conferenceTime": "November 02-04, 2026"
     },
     {
+        "name": "IJCB 2026",
+        "shortcut": "IJCB",
+        "location": "Rome, Italy",
+        "deadline": "2026-04-30T23:59:59.000-12:00",
+        "url": "https://ijcb2026.ieee-biometrics.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "September 1-4, 2026"
+    },
+    {
         "name": "IJCNLP 2026",
         "shortcut": "IJCNLP",
         "location": "Hengqin, China",
