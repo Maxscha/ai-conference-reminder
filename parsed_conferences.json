@@ -1,5 +1,15 @@
 [
     {
+        "name": "AAAI 2027",
+        "shortcut": "AAAI",
+        "location": "Montréal, Québec, Canada",
+        "deadline": "2026-07-27T23:59:59.000-12:00",
+        "url": "https://aaai.org/conference/aaai/aaai-27/",
+        "abstractDeadline": "2026-07-20T23:59:59.000-12:00",
+        "note": "",
+        "conferenceTime": "February 16-23, 2027"
+    },
+    {
         "name": "ACCV 2026",
         "shortcut": "ACCV",
         "location": "Osaka, Japan",
