@@ -85,7 +85,7 @@
         "location": "Sydney, Australia",
         "deadline": "2026-05-07T11:59:00.000Z",
         "url": "https://neurips.cc/Conferences/2026",
-        "abstractDeadline": null,
+        "abstractDeadline": "2026-05-05T11:59:00.000Z",
         "note": "",
         "conferenceTime": "December 6, 2026"
     },
