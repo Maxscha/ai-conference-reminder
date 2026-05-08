@@ -80,16 +80,6 @@
         "conferenceTime": "Nov 6-10, 2026"
     },
     {
-        "name": "NeurIPS 2026",
-        "shortcut": "NeurIPS",
-        "location": "Sydney, Australia",
-        "deadline": "2026-05-07T11:59:00.000Z",
-        "url": "https://neurips.cc/Conferences/2026",
-        "abstractDeadline": "2026-05-05T11:59:00.000Z",
-        "note": "",
-        "conferenceTime": "December 6, 2026"
-    },
-    {
         "name": "NLPCC 2026",
         "shortcut": "NLPCC",
         "location": "Macau, China",
