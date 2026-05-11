@@ -108,5 +108,15 @@
         "abstractDeadline": "2026-05-08T23:59:59.000-12:00",
         "note": "",
         "conferenceTime": "August 24-26, 2026"
+    },
+    {
+        "name": "WACV 2027",
+        "shortcut": "WACV",
+        "location": "Disney Springs, Buena Vista, FL, USA",
+        "deadline": "2026-08-27T23:59:59.000-12:00",
+        "url": "https://wacv.thecvf.com/",
+        "abstractDeadline": "2026-08-20T23:59:00.000-12:00",
+        "note": "",
+        "conferenceTime": "Jan 5 - 9, 2027"
     }
 ]
