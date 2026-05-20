@@ -9,6 +9,15 @@ AI Conference Reminder is a GitHub Action that sends weekly reminders for upcomi
 ## Prerequisites
 To use this action, you will need:
 
-- A Slack workspace
-- A Slack User OAuth Access Token with the chat:write scope
-- A Slack Channel ID where the reminders will be sent
+- :heavy_exclamation_mark: A Slack workspace. 
+- :heavy_exclamation_mark: A Slack user OAuth access token with the `chat:write' scope. It can be created using the [Slack API](https://api.slack.com/apps).
+- :heavy_exclamation_mark: A Slack channel ID to which the reminders will be sent. The ID can be found in the channel details within Slack. Note that the created Slack app must be manually added to the channel.
+- :hammer_and_wrench: An optional Slack channel ID to send debug messages to when testing the action.
+
+The action uses the following secrets:
+ 
+| Description                                                       | Secret                        | Example                                                   |
+|-------------------------------------------------------------------|-------------------------------|-----------------------------------------------------------|
+| :heavy_exclamation_mark: Slack user OAuth access token (Required) | SLACK_USER_OAUTH_ACCESS_TOKEN | xoxb-6132114261569-1921537423623-naMskL2MsmaEbafU1sJm63mA | 
+| :heavy_exclamation_mark: Slack reminder channel ID (Required)     | SLACK_REMINDER_CHANNEL_ID     | C051V32G410                                               |
+| :hammer_and_wrench: Slack debug channel ID (Optional)             | SLACK_DEBUG_CHANNEL_ID        | C021A32G420                                               |
