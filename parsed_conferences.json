@@ -40,16 +40,6 @@
         "conferenceTime": "October 24 - 29, 2026"
     },
     {
-        "name": "EUVIP 2026",
-        "shortcut": "EUVIP",
-        "location": "Luxembourg, Luxembourg",
-        "deadline": "2026-05-21T23:59:59.000+02:00",
-        "url": "https://euvip2026.github.io/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "September 28 - October 1, 2026"
-    },
-    {
         "name": "ICONIP 2026",
         "shortcut": "ICONIP",
         "location": "Melbourne, Australia",
