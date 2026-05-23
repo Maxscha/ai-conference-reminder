@@ -30,6 +30,16 @@
         "conferenceTime": "November 23-26, 2026"
     },
     {
+        "name": "CICAI 2026",
+        "shortcut": "CICAI",
+        "location": "Haining, Zhejiang, China",
+        "deadline": "2026-06-08T23:59:59.000+08:00",
+        "url": "https://cicai.caai.cn/index.html",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "October 17-19, 2026"
+    },
+    {
         "name": "EMNLP 2026",
         "shortcut": "EMNLP",
         "location": "Budapest, Hungary",
@@ -38,6 +48,16 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "October 24 - 29, 2026"
+    },
+    {
+        "name": "EUVIP 2026",
+        "shortcut": "EUVIP",
+        "location": "Luxembourg, Luxembourg",
+        "deadline": "2026-06-05T23:59:59.000+02:00",
+        "url": "https://euvip2026.github.io/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "September 28 - October 1, 2026"
     },
     {
         "name": "ICONIP 2026",
