@@ -40,16 +40,6 @@
         "conferenceTime": "October 17-19, 2026"
     },
     {
-        "name": "EMNLP 2026",
-        "shortcut": "EMNLP",
-        "location": "Budapest, Hungary",
-        "deadline": "2026-05-25T23:59:59.000-12:00",
-        "url": "https://2026.emnlp.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "October 24 - 29, 2026"
-    },
-    {
         "name": "EUVIP 2026",
         "shortcut": "EUVIP",
         "location": "Luxembourg, Luxembourg",
@@ -78,26 +68,6 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "November 02-04, 2026"
-    },
-    {
-        "name": "IJCNLP 2026",
-        "shortcut": "IJCNLP",
-        "location": "Hengqin, China",
-        "deadline": "2026-05-25T23:59:59.000-12:00",
-        "url": "https://2026.aaclnet.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "Nov 6-10, 2026"
-    },
-    {
-        "name": "NLPCC 2026",
-        "shortcut": "NLPCC",
-        "location": "Macau, China",
-        "deadline": "2026-05-26T23:59:59.000+08:00",
-        "url": "http://tcci.ccf.org.cn/conference/2026/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "November 3-5, 2026"
     },
     {
         "name": "PRICAI 2026",
