@@ -20,16 +20,6 @@
         "conferenceTime": "December 14-18, 2026"
     },
     {
-        "name": "BMVC 2026",
-        "shortcut": "BMVC",
-        "location": "Lancaster, UK",
-        "deadline": "2026-05-29T23:59:59.000Z",
-        "url": "https://bmvc2026.bmva.org/",
-        "abstractDeadline": "2026-05-22T23:59:59.000Z",
-        "note": "",
-        "conferenceTime": "November 23-26, 2026"
-    },
-    {
         "name": "CICAI 2026",
         "shortcut": "CICAI",
         "location": "Haining, Zhejiang, China",
