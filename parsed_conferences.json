@@ -30,14 +30,24 @@
         "conferenceTime": "October 17-19, 2026"
     },
     {
-        "name": "EUVIP 2026",
-        "shortcut": "EUVIP",
-        "location": "Luxembourg, Luxembourg",
-        "deadline": "2026-06-05T23:59:59.000+02:00",
-        "url": "https://euvip2026.github.io/",
+        "name": "DAI 2026",
+        "shortcut": "DAI",
+        "location": "Hong Kong, China",
+        "deadline": "2026-08-10T23:59:59.000-12:00",
+        "url": "https://www.adai.ai/dai/2026/index.html",
         "abstractDeadline": null,
         "note": "",
-        "conferenceTime": "September 28 - October 1, 2026"
+        "conferenceTime": "November 29-December 2, 2026"
+    },
+    {
+        "name": "EACL 2027",
+        "shortcut": "EACL",
+        "location": "Athens, Greece",
+        "deadline": "2026-08-03T23:59:59.000-12:00",
+        "url": "https://2027.eacl.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "March 9-14, 2027"
     },
     {
         "name": "ICTAI 2026",
@@ -48,6 +58,16 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "November 02-04, 2026"
+    },
+    {
+        "name": "NLPCC 2026",
+        "shortcut": "NLPCC",
+        "location": "Macau, China",
+        "deadline": "2026-06-20T23:59:59.000+08:00",
+        "url": "http://tcci.ccf.org.cn/conference/2026/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "November 3-5, 2026"
     },
     {
         "name": "PRICAI 2026",
