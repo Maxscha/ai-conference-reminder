@@ -63,7 +63,7 @@
         "name": "PRICAI 2026",
         "shortcut": "PRICAI",
         "location": "Guangzhou, China",
-        "deadline": "2026-06-13T23:59:59.000-12:00",
+        "deadline": "2026-06-27T23:59:59.000-12:00",
         "url": "https://2026.pricai.org/",
         "abstractDeadline": null,
         "note": "",
@@ -73,9 +73,9 @@
         "name": "WACV 2027",
         "shortcut": "WACV",
         "location": "Disney Springs, Buena Vista, FL, USA",
-        "deadline": "2026-08-27T23:59:59.000-12:00",
+        "deadline": "2026-08-28T23:59:59.000-12:00",
         "url": "https://wacv.thecvf.com/",
-        "abstractDeadline": "2026-08-20T23:59:00.000-12:00",
+        "abstractDeadline": "2026-08-21T23:59:00.000-12:00",
         "note": "",
         "conferenceTime": "Jan 5 - 9, 2027"
     }
