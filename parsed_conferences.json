@@ -50,16 +50,6 @@
         "conferenceTime": "November 02-04, 2026"
     },
     {
-        "name": "NLPCC 2026",
-        "shortcut": "NLPCC",
-        "location": "Macau, China",
-        "deadline": "2026-06-20T23:59:59.000+08:00",
-        "url": "http://tcci.ccf.org.cn/conference/2026/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "November 3-5, 2026"
-    },
-    {
         "name": "PRICAI 2026",
         "shortcut": "PRICAI",
         "location": "Guangzhou, China",
