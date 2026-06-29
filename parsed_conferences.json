@@ -50,16 +50,6 @@
         "conferenceTime": "November 02-04, 2026"
     },
     {
-        "name": "PRICAI 2026",
-        "shortcut": "PRICAI",
-        "location": "Guangzhou, China",
-        "deadline": "2026-06-27T23:59:59.000-12:00",
-        "url": "https://2026.pricai.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "Nov 17-20, 2026"
-    },
-    {
         "name": "WACV 2027",
         "shortcut": "WACV",
         "location": "Disney Springs, Buena Vista, FL, USA",
