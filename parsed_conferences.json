@@ -40,16 +40,6 @@
         "conferenceTime": "March 9-14, 2027"
     },
     {
-        "name": "ICTAI 2026",
-        "shortcut": "ICTAI",
-        "location": "Boca Raton FL, USA",
-        "deadline": "2026-06-30T23:59:00.000-12:00",
-        "url": "https://ictai.computer.org/2026/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "November 02-04, 2026"
-    },
-    {
         "name": "WACV 2027",
         "shortcut": "WACV",
         "location": "Disney Springs, Buena Vista, FL, USA",
