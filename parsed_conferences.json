@@ -10,16 +10,6 @@
         "conferenceTime": "February 16-23, 2027"
     },
     {
-        "name": "ACCV 2026",
-        "shortcut": "ACCV",
-        "location": "Osaka, Japan",
-        "deadline": "2026-07-05T23:59:59.000-12:00",
-        "url": "https://accv2026.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "December 14-18, 2026"
-    },
-    {
         "name": "DAI 2026",
         "shortcut": "DAI",
         "location": "Hong Kong, China",
