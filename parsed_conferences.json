@@ -30,6 +30,16 @@
         "conferenceTime": "March 9-14, 2027"
     },
     {
+        "name": "IJCNN 2027",
+        "shortcut": "IJCNN",
+        "location": "Cape Town, South Africa",
+        "deadline": "2027-01-31T23:59:59.000-12:00",
+        "url": "https://ijcnn.org/2027",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "June 14 - 18, 2027"
+    },
+    {
         "name": "WACV 2027",
         "shortcut": "WACV",
         "location": "Disney Springs, Buena Vista, FL, USA",
