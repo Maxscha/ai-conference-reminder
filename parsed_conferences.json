@@ -1,15 +1,5 @@
 [
     {
-        "name": "AAAI 2027",
-        "shortcut": "AAAI",
-        "location": "Montréal, Québec, Canada",
-        "deadline": "2026-07-28T23:59:59.000-12:00",
-        "url": "https://aaai.org/conference/aaai/aaai-27/",
-        "abstractDeadline": "2026-07-21T23:59:59.000-12:00",
-        "note": "",
-        "conferenceTime": "February 16-23, 2027"
-    },
-    {
         "name": "DAI 2026",
         "shortcut": "DAI",
         "location": "Hong Kong, China",
@@ -28,6 +18,16 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "March 9-14, 2027"
+    },
+    {
+        "name": "ICLR 2027",
+        "shortcut": "ICLR",
+        "location": "San Francisco, CA, USA",
+        "deadline": "2026-09-16T23:59:59.000-12:00",
+        "url": "https://iclr.cc/Conferences/2027",
+        "abstractDeadline": "2026-09-11T23:59:59.000-12:00",
+        "note": "",
+        "conferenceTime": "April 27-30, 2027"
     },
     {
         "name": "IJCNN 2027",
