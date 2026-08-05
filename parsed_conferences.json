@@ -1,5 +1,15 @@
 [
     {
+        "name": "COLING 2027",
+        "shortcut": "COLING",
+        "location": "Macau SAR, China",
+        "deadline": "2026-10-12T23:59:59.000-12:00",
+        "url": "https://2027.coling-iccl.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "May 9-14, 2027"
+    },
+    {
         "name": "DAI 2026",
         "shortcut": "DAI",
         "location": "Hong Kong, China",
@@ -8,16 +18,6 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "November 29-December 2, 2026"
-    },
-    {
-        "name": "EACL 2027",
-        "shortcut": "EACL",
-        "location": "Athens, Greece",
-        "deadline": "2026-08-03T23:59:59.000-12:00",
-        "url": "https://2027.eacl.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "March 9-14, 2027"
     },
     {
         "name": "ICLR 2027",
