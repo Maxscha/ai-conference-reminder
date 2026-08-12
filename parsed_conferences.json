@@ -10,16 +10,6 @@
         "conferenceTime": "May 9-14, 2027"
     },
     {
-        "name": "DAI 2026",
-        "shortcut": "DAI",
-        "location": "Hong Kong, China",
-        "deadline": "2026-08-10T23:59:59.000-12:00",
-        "url": "https://www.adai.ai/dai/2026/index.html",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "November 29-December 2, 2026"
-    },
-    {
         "name": "ICLR 2027",
         "shortcut": "ICLR",
         "location": "San Francisco, CA, USA",
