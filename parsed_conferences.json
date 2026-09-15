@@ -20,6 +20,16 @@
         "conferenceTime": "May 9-14, 2027"
     },
     {
+        "name": "CVC 2027",
+        "shortcut": "CVC",
+        "location": "Amsterdam, Netherlands",
+        "deadline": "2026-10-01T23:59:00.000-12:00",
+        "url": "https://saiconference.com/CVC",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "April 15-16, 2027"
+    },
+    {
         "name": "CVPR 2027",
         "shortcut": "CVPR",
         "location": "Seattle, WA, United States",
@@ -28,6 +38,46 @@
         "abstractDeadline": "2026-11-10T23:59:00.000-12:00",
         "note": "",
         "conferenceTime": "June 20-24, 2027"
+    },
+    {
+        "name": "EuroGP 2027",
+        "shortcut": "EuroGP",
+        "location": "Mainz, Germany (hybrid)",
+        "deadline": "2026-11-01T23:59:00.000-12:00",
+        "url": "https://www.evostar.org/2027/eurogp/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "March 31-April 2, 2027"
+    },
+    {
+        "name": "EvoApplications 2027",
+        "shortcut": "EvoApplications",
+        "location": "Mainz, Germany (hybrid)",
+        "deadline": "2026-11-01T23:59:00.000-12:00",
+        "url": "https://www.evostar.org/2027/evoapps/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "March 31-April 2, 2027"
+    },
+    {
+        "name": "EvoCOP 2027",
+        "shortcut": "EvoCOP",
+        "location": "Mainz, Germany (hybrid)",
+        "deadline": "2026-11-01T23:59:00.000-12:00",
+        "url": "https://www.evostar.org/2027/evocop/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "March 31-April 2, 2027"
+    },
+    {
+        "name": "EvoMUSART 2027",
+        "shortcut": "EvoMUSART",
+        "location": "Mainz, Germany (hybrid)",
+        "deadline": "2026-11-01T23:59:00.000-12:00",
+        "url": "https://www.evostar.org/2027/evomusart/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "March 31-April 2, 2027"
     },
     {
         "name": "ICLR 2027",
