@@ -20,6 +20,16 @@
         "conferenceTime": "May 9-14, 2027"
     },
     {
+        "name": "CPAL 2027",
+        "shortcut": "CPAL",
+        "location": "Tokyo, Japan",
+        "deadline": "2026-12-05T23:59:59.000-12:00",
+        "url": "https://cpal.cc/",
+        "abstractDeadline": "2026-11-23T23:59:59.000-12:00",
+        "note": "",
+        "conferenceTime": "March 23-26, 2027"
+    },
+    {
         "name": "CVC 2027",
         "shortcut": "CVC",
         "location": "Amsterdam, Netherlands",
@@ -38,6 +48,26 @@
         "abstractDeadline": "2026-11-10T23:59:00.000-12:00",
         "note": "",
         "conferenceTime": "June 20-24, 2027"
+    },
+    {
+        "name": "ECAI 2027",
+        "shortcut": "ECAI",
+        "location": "Athens, Greece",
+        "deadline": "2027-04-14T23:59:59.000-12:00",
+        "url": "https://ecai2027.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "October 2-7, 2027"
+    },
+    {
+        "name": "ESANN 2027",
+        "shortcut": "ESANN",
+        "location": "Bruges, Belgium and Online",
+        "deadline": "2026-11-18T23:59:59.000-08:00",
+        "url": "https://www.esann.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "April 21 - 23, 2027"
     },
     {
         "name": "EuroGP 2027",
@@ -78,6 +108,16 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "March 31-April 2, 2027"
+    },
+    {
+        "name": "ICDAR 2027",
+        "shortcut": "ICDAR",
+        "location": "Kuala Lumpur, Malaysia",
+        "deadline": "2027-02-20T23:59:59.000-12:00",
+        "url": "https://icdar2027.org/",
+        "abstractDeadline": "2027-01-31T23:59:59.000-12:00",
+        "note": "",
+        "conferenceTime": "August 18 - 22, 2027"
     },
     {
         "name": "ICLR 2027",
