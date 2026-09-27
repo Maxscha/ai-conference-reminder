@@ -13,7 +13,7 @@
         "name": "COLING 2027",
         "shortcut": "COLING",
         "location": "Macau SAR, China",
-        "deadline": "2026-10-12T23:59:59.000-12:00",
+        "deadline": "2026-12-23T23:59:59.000-12:00",
         "url": "https://2027.coling-iccl.org/",
         "abstractDeadline": null,
         "note": "",
@@ -47,7 +47,17 @@
         "url": "https://cvpr.thecvf.com/Conferences/2027",
         "abstractDeadline": "2026-11-10T23:59:00.000-12:00",
         "note": "",
-        "conferenceTime": "June 20-24, 2027"
+        "conferenceTime": "June 20-25, 2027"
+    },
+    {
+        "name": "EACL 2027",
+        "shortcut": "EACL",
+        "location": "Athens, Greece",
+        "deadline": "2026-10-11T23:59:59.000-12:00",
+        "url": "https://2027.eacl.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "March 9-14, 2027"
     },
     {
         "name": "ECAI 2027",
@@ -120,16 +130,6 @@
         "conferenceTime": "August 18 - 22, 2027"
     },
     {
-        "name": "ICLR 2027",
-        "shortcut": "ICLR",
-        "location": "San Francisco, CA, USA",
-        "deadline": "2026-09-25T23:59:59.000-12:00",
-        "url": "https://iclr.cc/Conferences/2027",
-        "abstractDeadline": "2026-09-18T23:59:59.000-12:00",
-        "note": "",
-        "conferenceTime": "April 26-30, 2027"
-    },
-    {
         "name": "IJCNN 2027",
         "shortcut": "IJCNN",
         "location": "Cape Town, South Africa",
@@ -143,7 +143,7 @@
         "name": "NAACL 2027",
         "shortcut": "NAACL",
         "location": "San Francisco, California, USA",
-        "deadline": "2026-10-12T23:59:59.000-12:00",
+        "deadline": "2026-12-23T23:59:59.000-12:00",
         "url": "https://2027.naacl.org/",
         "abstractDeadline": null,
         "note": "",
