@@ -1,5 +1,15 @@
 [
     {
+        "name": "ACL 2027",
+        "shortcut": "ACL",
+        "location": "Kyoto, Japan",
+        "deadline": "2027-01-04T23:59:59.000-12:00",
+        "url": "https://2027.aclweb.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "August 17-22, 2027"
+    },
+    {
         "name": "IEEE CEC 2027",
         "shortcut": "IEEE CEC",
         "location": "Edinburgh, Scotland, UK",
