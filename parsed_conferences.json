@@ -40,16 +40,6 @@
         "conferenceTime": "March 23-26, 2027"
     },
     {
-        "name": "CVC 2027",
-        "shortcut": "CVC",
-        "location": "Amsterdam, Netherlands",
-        "deadline": "2026-10-01T23:59:59.000-12:00",
-        "url": "https://saiconference.com/CVC",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "April 15-16, 2027"
-    },
-    {
         "name": "CVPR 2027",
         "shortcut": "CVPR",
         "location": "Seattle, WA, United States",
