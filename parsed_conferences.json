@@ -130,6 +130,16 @@
         "conferenceTime": "August 18 - 22, 2027"
     },
     {
+        "name": "IJCAI 2027",
+        "shortcut": "IJCAI",
+        "location": "Kyoto, Japan",
+        "deadline": "2027-01-11T23:59:00.000-12:00",
+        "url": "https://2027.ijcai.org/",
+        "abstractDeadline": "2027-01-04T23:59:00.000-12:00",
+        "note": "",
+        "conferenceTime": "August 7-13, 2027"
+    },
+    {
         "name": "IJCNN 2027",
         "shortcut": "IJCNN",
         "location": "Cape Town, South Africa",
