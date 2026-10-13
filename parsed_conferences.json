@@ -50,16 +50,6 @@
         "conferenceTime": "June 20-25, 2027"
     },
     {
-        "name": "EACL 2027",
-        "shortcut": "EACL",
-        "location": "Athens, Greece",
-        "deadline": "2026-10-11T23:59:59.000-12:00",
-        "url": "https://2027.eacl.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "March 9-14, 2027"
-    },
-    {
         "name": "ECAI 2027",
         "shortcut": "ECAI",
         "location": "Athens, Greece",
