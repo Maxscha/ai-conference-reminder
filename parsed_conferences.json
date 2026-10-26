@@ -22,12 +22,12 @@
     {
         "name": "COLING 2027",
         "shortcut": "COLING",
-        "location": "Macau SAR, China",
+        "location": "Macau SAR, China / Online",
         "deadline": "2026-12-23T23:59:59.000-12:00",
         "url": "https://2027.coling-iccl.org/",
         "abstractDeadline": null,
         "note": "",
-        "conferenceTime": "May 9-14, 2027"
+        "conferenceTime": "May 9-14 (in-person) and 6-7 (virtual), 2027"
     },
     {
         "name": "CPAL 2027",
@@ -38,6 +38,16 @@
         "abstractDeadline": "2026-11-23T23:59:59.000-12:00",
         "note": "",
         "conferenceTime": "March 23-26, 2027"
+    },
+    {
+        "name": "CVC 2027",
+        "shortcut": "CVC",
+        "location": "Amsterdam, Netherlands",
+        "deadline": "2026-11-01T23:59:59.000-12:00",
+        "url": "https://saiconference.com/CVC",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "April 15-16, 2027"
     },
     {
         "name": "CVPR 2027",
