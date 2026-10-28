@@ -120,6 +120,16 @@
         "conferenceTime": "March 31-April 2, 2027"
     },
     {
+        "name": "GECCO 2027",
+        "shortcut": "GECCO",
+        "location": "Kraków, Poland",
+        "deadline": "2027-01-25T23:59:59.000-12:00",
+        "url": "https://gecco-2027.sigevo.org/HomePage",
+        "abstractDeadline": "2027-01-18T23:59:59.000-12:00",
+        "note": "",
+        "conferenceTime": "July 12-16, 2027"
+    },
+    {
         "name": "ICDAR 2027",
         "shortcut": "ICDAR",
         "location": "Kuala Lumpur, Malaysia",
@@ -138,6 +148,16 @@
         "abstractDeadline": "2027-01-04T23:59:00.000-12:00",
         "note": "",
         "conferenceTime": "August 7-13, 2027"
+    },
+    {
+        "name": "IJCB 2027",
+        "shortcut": "IJCB",
+        "location": "Foz do Iguaçu, Brazil",
+        "deadline": "2027-04-10T23:59:59.000-12:00",
+        "url": "https://ijcb2027.ieee-biometrics.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "September 13-17, 2027"
     },
     {
         "name": "IJCNN 2027",
