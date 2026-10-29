@@ -20,16 +20,6 @@
         "conferenceTime": "July 25-28, 2027"
     },
     {
-        "name": "COLING 2027",
-        "shortcut": "COLING",
-        "location": "Macau SAR, China / Online",
-        "deadline": "2026-12-23T23:59:59.000-12:00",
-        "url": "https://2027.coling-iccl.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "May 9-14 (in-person) and 6-7 (virtual), 2027"
-    },
-    {
         "name": "CPAL 2027",
         "shortcut": "CPAL",
         "location": "Tokyo, Japan",
@@ -73,7 +63,7 @@
         "name": "ESANN 2027",
         "shortcut": "ESANN",
         "location": "Bruges, Belgium and Online",
-        "deadline": "2026-11-18T23:59:59.000-08:00",
+        "deadline": "2026-11-19T03:59:59.000-08:00",
         "url": "https://www.esann.org/",
         "abstractDeadline": null,
         "note": "",
