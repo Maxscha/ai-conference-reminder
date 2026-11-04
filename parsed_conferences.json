@@ -113,9 +113,9 @@
         "name": "ICDAR 2027",
         "shortcut": "ICDAR",
         "location": "Kuala Lumpur, Malaysia",
-        "deadline": "2027-02-20T23:59:59.000-12:00",
+        "deadline": "2027-03-02T23:59:59.000-12:00",
         "url": "https://icdar2027.org/",
-        "abstractDeadline": "2027-01-31T23:59:59.000-12:00",
+        "abstractDeadline": "2027-02-23T23:59:59.000-12:00",
         "note": "",
         "conferenceTime": "August 18 - 22, 2027"
     },
