@@ -7,7 +7,7 @@
         "url": "https://2027.aclweb.org/",
         "abstractDeadline": null,
         "note": "",
-        "conferenceTime": "August 17-22, 2027"
+        "conferenceTime": "August 20-22, 2027"
     },
     {
         "name": "IEEE CEC 2027",
@@ -20,34 +20,34 @@
         "conferenceTime": "July 25-28, 2027"
     },
     {
+        "name": "COLING 2027",
+        "shortcut": "COLING",
+        "location": "Macau SAR, China / Online",
+        "deadline": "2026-12-23T23:59:59.000-12:00",
+        "url": "https://2027.coling-iccl.org/",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "May 9-14 (in-person) and 6-7 (virtual), 2027"
+    },
+    {
         "name": "CPAL 2027",
         "shortcut": "CPAL",
         "location": "Tokyo, Japan",
-        "deadline": "2026-11-25T23:59:59.000-12:00",
+        "deadline": "2026-12-05T23:59:59.000-12:00",
         "url": "https://cpal.cc/",
-        "abstractDeadline": "2026-11-13T23:59:59.000-12:00",
+        "abstractDeadline": null,
         "note": "",
         "conferenceTime": "March 23-26, 2027"
     },
     {
-        "name": "CVC 2027",
-        "shortcut": "CVC",
-        "location": "Amsterdam, Netherlands",
-        "deadline": "2026-11-15T23:59:59.000-12:00",
-        "url": "https://saiconference.com/CVC",
+        "name": "ECAF 2027",
+        "shortcut": "ECAF",
+        "location": "Vilnius, Lithuania",
+        "deadline": "2027-03-25T23:59:59.000-12:00",
+        "url": "https://2027.ecafconference.org/",
         "abstractDeadline": null,
         "note": "",
-        "conferenceTime": "April 15-16, 2027"
-    },
-    {
-        "name": "CVPR 2027",
-        "shortcut": "CVPR",
-        "location": "Seattle, WA, United States",
-        "deadline": "2026-11-16T23:59:59.000-12:00",
-        "url": "https://cvpr.thecvf.com/Conferences/2027",
-        "abstractDeadline": "2026-11-10T23:59:59.000-12:00",
-        "note": "",
-        "conferenceTime": "June 20-25, 2027"
+        "conferenceTime": "August 25-27, 2027"
     },
     {
         "name": "ECAI 2027",
@@ -63,51 +63,11 @@
         "name": "ESANN 2027",
         "shortcut": "ESANN",
         "location": "Bruges, Belgium and Online",
-        "deadline": "2026-11-19T03:59:59.000-08:00",
+        "deadline": "2026-11-26T03:59:59.000-08:00",
         "url": "https://www.esann.org/",
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "April 21 - 23, 2027"
-    },
-    {
-        "name": "EuroGP 2027",
-        "shortcut": "EuroGP",
-        "location": "Mainz, Germany (hybrid)",
-        "deadline": "2026-11-16T23:59:59.000-12:00",
-        "url": "https://www.evostar.org/2027/eurogp/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "March 31-April 2, 2027"
-    },
-    {
-        "name": "EvoApplications 2027",
-        "shortcut": "EvoApplications",
-        "location": "Mainz, Germany (hybrid)",
-        "deadline": "2026-11-16T23:59:59.000-12:00",
-        "url": "https://www.evostar.org/2027/evoapps/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "March 31-April 2, 2027"
-    },
-    {
-        "name": "EvoCOP 2027",
-        "shortcut": "EvoCOP",
-        "location": "Mainz, Germany (hybrid)",
-        "deadline": "2026-11-16T23:59:59.000-12:00",
-        "url": "https://www.evostar.org/2027/evocop/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "March 31-April 2, 2027"
-    },
-    {
-        "name": "EvoMUSART 2027",
-        "shortcut": "EvoMUSART",
-        "location": "Mainz, Germany (hybrid)",
-        "deadline": "2026-11-16T23:59:59.000-12:00",
-        "url": "https://www.evostar.org/2027/evomusart/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "March 31-April 2, 2027"
     },
     {
         "name": "GECCO 2027",
@@ -123,11 +83,21 @@
         "name": "ICDAR 2027",
         "shortcut": "ICDAR",
         "location": "Kuala Lumpur, Malaysia",
-        "deadline": "2027-03-02T23:59:59.000-12:00",
+        "deadline": "2027-03-05T23:59:59.000-12:00",
         "url": "https://icdar2027.org/",
-        "abstractDeadline": "2027-02-23T23:59:59.000-12:00",
+        "abstractDeadline": "2027-02-26T23:59:59.000-12:00",
         "note": "",
         "conferenceTime": "August 18 - 22, 2027"
+    },
+    {
+        "name": "ICML 2027",
+        "shortcut": "ICML",
+        "location": "Riocentro, Rio de Janeiro, Brazil",
+        "deadline": "2027-01-22T23:59:59.000-12:00",
+        "url": "https://icml.cc/Conferences/2027",
+        "abstractDeadline": "2027-01-14T23:59:59.000-12:00",
+        "note": "",
+        "conferenceTime": "August 2-4, 2027"
     },
     {
         "name": "IJCAI 2027",
@@ -158,6 +128,16 @@
         "abstractDeadline": null,
         "note": "",
         "conferenceTime": "June 14 - 18, 2027"
+    },
+    {
+        "name": "IntelliSys 2027",
+        "shortcut": "IntelliSys",
+        "location": "Amsterdam, Netherlands",
+        "deadline": "2026-12-01T23:59:59.000-12:00",
+        "url": "https://saiconference.com/IntelliSys",
+        "abstractDeadline": null,
+        "note": "",
+        "conferenceTime": "September 2-3, 2027"
     },
     {
         "name": "NAACL 2027",
