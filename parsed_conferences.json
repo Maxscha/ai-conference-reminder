@@ -70,16 +70,6 @@
         "conferenceTime": "October 4-7, 2027"
     },
     {
-        "name": "ESANN 2027",
-        "shortcut": "ESANN",
-        "location": "Bruges, Belgium and Online",
-        "deadline": "2026-11-26T03:59:59.000-08:00",
-        "url": "https://www.esann.org/",
-        "abstractDeadline": null,
-        "note": "",
-        "conferenceTime": "April 21 - 23, 2027"
-    },
-    {
         "name": "GECCO 2027",
         "shortcut": "GECCO",
         "location": "Kraków, Poland",
